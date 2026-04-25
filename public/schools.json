@@ -1,0 +1,106 @@
+[
+  {
+    "slug": "carnegie-mellon",
+    "name": "Carnegie Mellon",
+    "domain": "cmu.edu",
+    "count": 697,
+    "csv": "data/carnegie-mellon.csv",
+    "generated_at": "2026-04-25T08:53:32Z"
+  },
+  {
+    "slug": "cornell",
+    "name": "Cornell",
+    "domain": "cornell.edu",
+    "count": 2022,
+    "csv": "data/cornell.csv",
+    "generated_at": "2026-04-25T08:53:32Z"
+  },
+  {
+    "slug": "georgia-tech",
+    "name": "Georgia Tech",
+    "domain": "gatech.edu",
+    "count": 2077,
+    "csv": "data/georgia-tech.csv",
+    "generated_at": "2026-04-25T08:53:32Z"
+  },
+  {
+    "slug": "harvard",
+    "name": "Harvard",
+    "domain": "harvard.edu",
+    "count": 2033,
+    "csv": "data/harvard.csv",
+    "generated_at": "2026-04-25T08:53:32Z"
+  },
+  {
+    "slug": "mit",
+    "name": "MIT",
+    "domain": "mit.edu",
+    "count": 1715,
+    "csv": "data/mit.csv",
+    "generated_at": "2026-04-25T08:53:32Z"
+  },
+  {
+    "slug": "nyu",
+    "name": "NYU",
+    "domain": "nyu.edu",
+    "count": 421,
+    "csv": "data/nyu.csv",
+    "generated_at": "2026-04-25T08:53:32Z"
+  },
+  {
+    "slug": "princeton",
+    "name": "Princeton",
+    "domain": "princeton.edu",
+    "count": 1228,
+    "csv": "data/princeton.csv",
+    "generated_at": "2026-04-25T08:53:32Z"
+  },
+  {
+    "slug": "stanford",
+    "name": "Stanford",
+    "domain": "stanford.edu",
+    "count": 2045,
+    "csv": "data/stanford.csv",
+    "generated_at": "2026-04-25T08:53:32Z"
+  },
+  {
+    "slug": "uc-berkeley",
+    "name": "UC Berkeley",
+    "domain": "berkeley.edu",
+    "count": 4236,
+    "csv": "data/uc-berkeley.csv",
+    "generated_at": "2026-04-25T08:53:32Z"
+  },
+  {
+    "slug": "uc-san-diego",
+    "name": "UC San Diego",
+    "domain": "ucsd.edu",
+    "count": 2703,
+    "csv": "data/uc-san-diego.csv",
+    "generated_at": "2026-04-25T08:53:32Z"
+  },
+  {
+    "slug": "uiuc",
+    "name": "UIUC",
+    "domain": "illinois.edu",
+    "count": 3103,
+    "csv": "data/uiuc.csv",
+    "generated_at": "2026-04-25T08:53:32Z"
+  },
+  {
+    "slug": "upenn",
+    "name": "UPenn",
+    "domain": "upenn.edu",
+    "count": 1497,
+    "csv": "data/upenn.csv",
+    "generated_at": "2026-04-25T08:53:32Z"
+  },
+  {
+    "slug": "university-of-washington",
+    "name": "University of Washington",
+    "domain": "uw.edu",
+    "count": 1296,
+    "csv": "data/university-of-washington.csv",
+    "generated_at": "2026-04-25T08:53:32Z"
+  }
+]
