@@ -135,25 +135,33 @@ export function ResolvePanel({ school, onReset }: { school: School; onReset: () 
     if (!rows || rows.length === 0) return
     setDiagBusy(true)
     setDiagOutput(null)
-    const probeName = (identity.email || '').split('@')[0]?.replace(/[._\d]+/g, ' ').trim() || rows[0]!.name
-    const localPart = (identity.email || '').split('@')[0] || ''
-    const sampleRow = rows[0]!
     const lines: string[] = []
+    const token = getToken()
     lines.push(`Identity: ${identity.email || 'none'}`)
     lines.push(`Domain hint: ${school.domain}`)
-    lines.push(`Token present: ${getToken() ? 'yes (' + getToken()!.slice(0, 12) + '...)' : 'NO'}`)
+    lines.push(`Token present: ${token ? 'yes (' + token.slice(0, 12) + '...)' : 'NO'}`)
     lines.push('')
-    const tests = [
-      { label: `self-name guess from email ("${probeName}")`, query: probeName },
-      { label: `email local-part ("${localPart}")`, query: localPart },
-      { label: `first CSV row ("${sampleRow.name}")`, query: sampleRow.name },
-    ]
-    const token = getToken()
     if (!token) {
       setDiagOutput('No token. Sign in first.')
       setDiagBusy(false)
       return
     }
+
+    // Pick a varied set of test queries
+    const probeName = (identity.email || '').split('@')[0]?.replace(/[._\d]+/g, ' ').trim() || ''
+    const tests: { label: string; query: string }[] = []
+    if (probeName) tests.push({ label: `self ("${probeName}")`, query: probeName })
+
+    // First non-alumni row of each role we can find
+    const seenRoles = new Set<string>()
+    for (const r of rows) {
+      if (seenRoles.size >= 4) break
+      const role = (r.role || 'unknown').toLowerCase()
+      if (seenRoles.has(role)) continue
+      seenRoles.add(role)
+      tests.push({ label: `[${r.role}] "${r.name}"`, query: r.name })
+    }
+
     for (const t of tests) {
       try {
         const url = new URL('https://people.googleapis.com/v1/people:searchDirectoryPeople')
@@ -165,10 +173,28 @@ export function ResolvePanel({ school, onReset }: { school: School; onReset: () 
           headers: { Authorization: `Bearer ${token}` },
         })
         const body = await r.text()
-        const truncated = body.length > 600 ? body.slice(0, 600) + '...' : body
+        let summary = body
+        try {
+          const parsed = JSON.parse(body)
+          if (parsed.error) {
+            summary = `ERROR: ${parsed.error.status} — ${parsed.error.message}`
+          } else if (Array.isArray(parsed.people)) {
+            summary = `${parsed.people.length} hit(s):`
+            for (const p of parsed.people.slice(0, 3)) {
+              const person = p.person ?? p
+              const name = person?.names?.[0]?.displayName ?? '?'
+              const email = person?.emailAddresses?.[0]?.value ?? '?'
+              const org = person?.organizations?.[0]
+              summary += `\n    • ${name} <${email}> | dept:${org?.department ?? '-'} | title:${org?.title ?? '-'}`
+            }
+          } else if (parsed.people === undefined && Object.keys(parsed).length === 0) {
+            summary = '0 hits ({} empty)'
+          }
+        } catch {
+          summary = body.slice(0, 300)
+        }
         lines.push(`▶ ${t.label}`)
-        lines.push(`  HTTP ${r.status}`)
-        lines.push(`  ${truncated.replace(/\n/g, '\n  ')}`)
+        lines.push(`  HTTP ${r.status} — ${summary}`)
         lines.push('')
       } catch (e) {
         lines.push(`▶ ${t.label}`)
