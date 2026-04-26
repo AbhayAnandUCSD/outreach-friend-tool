@@ -93,20 +93,28 @@ export function ResolvePanel({ school, onReset }: { school: School; onReset: () 
     for (let i = 0; i < work.length; i++) {
       const row = work[i]!
       try {
-        const { candidates: raw } = await searchPerson(row, school.domain)
+        const { candidates: raw, raw_count } = await searchPerson(row, school.domain)
         const ranked = scoreAll(row, raw)
         const result = classify(row, ranked, school.domain)
         if (result.kind === 'auto') {
           buck.auto.push(result.resolution)
           const dec = result.resolution.decision
           setCounters(c => bumpCounter(c, dec))
+          if (dec === 'no_hit') {
+            console.info(
+              `[no_hit] "${row.name}" [${row.role}] — api:${raw_count} after-filter:${ranked.length}` +
+              (raw_count > 0
+                ? ` candidates: ${raw.map(c => `${c.display_name} <${c.email}>`).join(' | ')}`
+                : ' (directory returned nothing)'),
+            )
+          }
         } else {
           buck.needs_review.push(result.item)
           setCounters(c => ({ ...c, needs_review: c.needs_review + 1 }))
         }
       } catch (e) {
         errs++
-        console.error('resolve error', row.researcher_id, e)
+        console.error('[resolve error]', row.researcher_id, row.name, e)
       }
       setProgress({ done: i + 1, total: work.length })
     }
