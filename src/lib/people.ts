@@ -86,23 +86,37 @@ export async function searchPerson(row: DbRow, domain: string): Promise<SearchRe
     token = auth.token
   }
 
+  console.debug('[people] token prefix:', token?.slice(0, 12), 'query:', query)
+
   let resp = await fetch(url.toString(), {
     headers: { Authorization: `Bearer ${token}` },
   })
 
   if (resp.status === 401) {
+    console.warn('[people] 401, retrying with fresh token')
     const auth = await signIn()
     resp = await fetch(url.toString(), {
       headers: { Authorization: `Bearer ${auth.token}` },
     })
   }
 
-  if (!resp.ok) {
-    const body = await resp.text()
-    throw new Error(`People API ${resp.status}: ${body.slice(0, 200)}`)
+  // Read body once, parse, and surface error JSON even if HTTP status is 200.
+  const bodyText = await resp.text()
+  let data: { people?: { person?: RawPerson }[]; error?: { code?: number; message?: string; status?: string } }
+  try {
+    data = JSON.parse(bodyText)
+  } catch {
+    throw new Error(`People API ${resp.status} non-JSON body: ${bodyText.slice(0, 200)}`)
   }
 
-  const data = await resp.json() as { people?: { person?: RawPerson }[] }
+  if (data.error) {
+    console.error('[people] API error', { httpStatus: resp.status, error: data.error })
+    throw new Error(`People API ${data.error.status || resp.status}: ${data.error.message}`)
+  }
+
+  if (!resp.ok) {
+    throw new Error(`People API ${resp.status}: ${bodyText.slice(0, 200)}`)
+  }
   const people: RawPerson[] = (data.people ?? [])
     .map(p => p.person)
     .filter((p): p is RawPerson => Boolean(p))

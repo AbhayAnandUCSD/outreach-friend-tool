@@ -65,6 +65,15 @@ async function handleTokenResponse(resp: google.accounts.oauth2.TokenResponse) {
   }
   const token = resp.access_token
   currentToken = token
+
+  // Diagnostic: log what scopes the token actually has. resp.scope is a
+  // space-separated list returned by GIS; if directory.readonly isn't here
+  // the popup didn't grant it (or user dismissed that page of consent).
+  console.debug('[auth] granted scopes:', resp.scope)
+  if (resp.scope && !resp.scope.includes('directory.readonly')) {
+    console.warn('[auth] directory.readonly scope NOT granted — directory calls will 401')
+  }
+
   try {
     const userinfo = await fetch('https://openidconnect.googleapis.com/v1/userinfo', {
       headers: { Authorization: `Bearer ${token}` },
