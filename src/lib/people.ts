@@ -102,7 +102,7 @@ export async function searchPerson(row: DbRow, domain: string): Promise<SearchRe
 
   // Read body once, parse, and surface error JSON even if HTTP status is 200.
   const bodyText = await resp.text()
-  let data: { people?: { person?: RawPerson }[]; error?: { code?: number; message?: string; status?: string } }
+  let data: { people?: ({ person?: RawPerson } & RawPerson)[]; error?: { code?: number; message?: string; status?: string } }
   try {
     data = JSON.parse(bodyText)
   } catch {
@@ -117,8 +117,10 @@ export async function searchPerson(row: DbRow, domain: string): Promise<SearchRe
   if (!resp.ok) {
     throw new Error(`People API ${resp.status}: ${bodyText.slice(0, 200)}`)
   }
+  // searchDirectoryPeople returns flat person objects; older docs/SDKs
+  // sometimes wrap each in { person: ... } so accept both shapes.
   const people: RawPerson[] = (data.people ?? [])
-    .map(p => p.person)
+    .map(p => (p && 'person' in p && p.person ? p.person : (p as unknown as RawPerson)))
     .filter((p): p is RawPerson => Boolean(p))
 
   const candidates: Candidate[] = []
