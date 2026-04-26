@@ -44,6 +44,7 @@ export function ResolvePanel({ school, onReset }: { school: School; onReset: () 
   const [reviewIdx, setReviewIdx] = useState(0)
   const [reviewResults, setReviewResults] = useState<Resolution[]>([])
   const [error, setError] = useState<string | null>(null)
+  const [limit30, setLimit30] = useState(false)
 
   // Subscribe to auth changes
   useEffect(() => {
@@ -81,13 +82,14 @@ export function ResolvePanel({ school, onReset }: { school: School; onReset: () 
 
   async function startResolve() {
     if (!rows) return
+    const work = limit30 ? rows.slice(0, 30) : rows
     setPhase('resolving')
-    setProgress({ done: 0, total: rows.length })
+    setProgress({ done: 0, total: work.length })
     setCounters(emptyCounters())
     const buck: ResolveBuckets = { auto: [], needs_review: [] }
     let errs = 0
-    for (let i = 0; i < rows.length; i++) {
-      const row = rows[i]!
+    for (let i = 0; i < work.length; i++) {
+      const row = work[i]!
       try {
         const { candidates: raw } = await searchPerson(row, school.domain)
         const ranked = scoreAll(row, raw)
@@ -104,7 +106,7 @@ export function ResolvePanel({ school, onReset }: { school: School; onReset: () 
         errs++
         console.error('resolve error', row.researcher_id, e)
       }
-      setProgress({ done: i + 1, total: rows.length })
+      setProgress({ done: i + 1, total: work.length })
     }
     setCounters(c => ({ ...c, errors: errs }))
     setBuckets(buck)
@@ -180,23 +182,35 @@ export function ResolvePanel({ school, onReset }: { school: School; onReset: () 
         </div>
       </div>
 
-      {phase === 'ready' && rows && (
-        <div className="rounded-lg border border-[var(--border)] bg-[var(--surface-1)] p-6">
-          <div className="text-sm">
-            Loaded <span className="font-medium">{rows.length.toLocaleString()}</span> researchers from{' '}
-            <span className="font-mono text-xs">{school.csv}</span>.
+      {phase === 'ready' && rows && (() => {
+        const effective = limit30 ? Math.min(30, rows.length) : rows.length
+        return (
+          <div className="rounded-lg border border-[var(--border)] bg-[var(--surface-1)] p-6">
+            <div className="text-sm">
+              Loaded <span className="font-medium">{rows.length.toLocaleString()}</span> researchers from{' '}
+              <span className="font-mono text-xs">{school.csv}</span>.
+            </div>
+            <div className="mt-1 text-xs text-[var(--ink-muted)]">
+              About {Math.ceil((effective * 0.72) / 60)} min for {effective.toLocaleString()} lookups at the API rate limit.
+            </div>
+            <label className="mt-3 flex cursor-pointer items-center gap-2 text-xs">
+              <input
+                type="checkbox"
+                checked={limit30}
+                onChange={e => setLimit30(e.target.checked)}
+                className="h-4 w-4 accent-[var(--accent)]"
+              />
+              <span>Limit to first 30 rows (test mode)</span>
+            </label>
+            <button
+              onClick={startResolve}
+              className="mt-4 rounded-md bg-[var(--accent)] px-4 py-2 text-sm font-medium text-[#0B1020] hover:bg-[var(--accent-strong)] hover:text-white"
+            >
+              Start lookup ({effective.toLocaleString()})
+            </button>
           </div>
-          <div className="mt-1 text-xs text-[var(--ink-muted)]">
-            About {Math.ceil((rows.length * 0.72) / 60)} min total at the API rate limit.
-          </div>
-          <button
-            onClick={startResolve}
-            className="mt-4 rounded-md bg-[var(--accent)] px-4 py-2 text-sm font-medium text-[#0B1020] hover:bg-[var(--accent-strong)] hover:text-white"
-          >
-            Start lookup
-          </button>
-        </div>
-      )}
+        )
+      })()}
 
       {phase === 'resolving' && (
         <div className="rounded-lg border border-[var(--border)] bg-[var(--surface-1)] p-6">
