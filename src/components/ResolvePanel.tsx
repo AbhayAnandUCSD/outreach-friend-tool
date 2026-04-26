@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 import type { DbRow, Resolution, ResolveBuckets, ReviewItem, School } from '../lib/types'
-import { getIdentity, isConfigured, onIdentityChange, signIn, signOut } from '../lib/auth'
+import { getIdentity, getToken, isConfigured, onIdentityChange, signIn, signOut } from '../lib/auth'
 import { loadSchoolCsv, downloadJson } from '../lib/csv'
 import { searchPerson } from '../lib/people'
 import { scoreAll } from '../lib/scoring'
@@ -45,6 +45,8 @@ export function ResolvePanel({ school, onReset }: { school: School; onReset: () 
   const [reviewResults, setReviewResults] = useState<Resolution[]>([])
   const [error, setError] = useState<string | null>(null)
   const [limit30, setLimit30] = useState(false)
+  const [diagOutput, setDiagOutput] = useState<string | null>(null)
+  const [diagBusy, setDiagBusy] = useState(false)
 
   // Subscribe to auth changes
   useEffect(() => {
@@ -129,6 +131,55 @@ export function ResolvePanel({ school, onReset }: { school: School; onReset: () 
     }
   }
 
+  async function runDiagnostic() {
+    if (!rows || rows.length === 0) return
+    setDiagBusy(true)
+    setDiagOutput(null)
+    const probeName = (identity.email || '').split('@')[0]?.replace(/[._\d]+/g, ' ').trim() || rows[0]!.name
+    const localPart = (identity.email || '').split('@')[0] || ''
+    const sampleRow = rows[0]!
+    const lines: string[] = []
+    lines.push(`Identity: ${identity.email || 'none'}`)
+    lines.push(`Domain hint: ${school.domain}`)
+    lines.push(`Token present: ${getToken() ? 'yes (' + getToken()!.slice(0, 12) + '...)' : 'NO'}`)
+    lines.push('')
+    const tests = [
+      { label: `self-name guess from email ("${probeName}")`, query: probeName },
+      { label: `email local-part ("${localPart}")`, query: localPart },
+      { label: `first CSV row ("${sampleRow.name}")`, query: sampleRow.name },
+    ]
+    const token = getToken()
+    if (!token) {
+      setDiagOutput('No token. Sign in first.')
+      setDiagBusy(false)
+      return
+    }
+    for (const t of tests) {
+      try {
+        const url = new URL('https://people.googleapis.com/v1/people:searchDirectoryPeople')
+        url.searchParams.set('query', t.query)
+        url.searchParams.set('readMask', 'names,emailAddresses,organizations')
+        url.searchParams.set('sources', 'DIRECTORY_SOURCE_TYPE_DOMAIN_PROFILE')
+        url.searchParams.set('pageSize', '5')
+        const r = await fetch(url.toString(), {
+          headers: { Authorization: `Bearer ${token}` },
+        })
+        const body = await r.text()
+        const truncated = body.length > 600 ? body.slice(0, 600) + '...' : body
+        lines.push(`▶ ${t.label}`)
+        lines.push(`  HTTP ${r.status}`)
+        lines.push(`  ${truncated.replace(/\n/g, '\n  ')}`)
+        lines.push('')
+      } catch (e) {
+        lines.push(`▶ ${t.label}`)
+        lines.push(`  THROWN: ${String(e)}`)
+        lines.push('')
+      }
+    }
+    setDiagOutput(lines.join('\n'))
+    setDiagBusy(false)
+  }
+
   function handleDownload() {
     const all = [...buckets.auto, ...reviewResults]
     const stamp = new Date().toISOString().slice(0, 10).replace(/-/g, '')
@@ -202,12 +253,27 @@ export function ResolvePanel({ school, onReset }: { school: School; onReset: () 
               />
               <span>Limit to first 30 rows (test mode)</span>
             </label>
-            <button
-              onClick={startResolve}
-              className="mt-4 rounded-md bg-[var(--accent)] px-4 py-2 text-sm font-medium text-[#0B1020] hover:bg-[var(--accent-strong)] hover:text-white"
-            >
-              Start lookup ({effective.toLocaleString()})
-            </button>
+            <div className="mt-4 flex flex-wrap gap-2">
+              <button
+                onClick={startResolve}
+                className="rounded-md bg-[var(--accent)] px-4 py-2 text-sm font-medium text-[#0B1020] hover:bg-[var(--accent-strong)] hover:text-white"
+              >
+                Start lookup ({effective.toLocaleString()})
+              </button>
+              <button
+                onClick={runDiagnostic}
+                disabled={diagBusy}
+                className="rounded-md border border-[var(--border)] px-4 py-2 text-sm hover:bg-[var(--canvas-alt)]"
+                title="Run 3 sample directory queries and show raw API responses"
+              >
+                {diagBusy ? 'Testing…' : 'Test directory access'}
+              </button>
+            </div>
+            {diagOutput && (
+              <pre className="mt-4 max-h-96 overflow-auto rounded-md border border-[var(--border)] bg-[var(--canvas)] p-3 text-[11px] leading-snug whitespace-pre-wrap">
+                {diagOutput}
+              </pre>
+            )}
           </div>
         )
       })()}
