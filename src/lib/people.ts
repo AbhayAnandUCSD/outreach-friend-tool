@@ -68,11 +68,8 @@ export type SearchResult = {
   raw_count: number
 }
 
-export async function searchPerson(row: DbRow, domain: string): Promise<SearchResult> {
+async function querySingle(query: string, domain: string): Promise<SearchResult> {
   await throttle()
-
-  const query = (row.name || '').trim()
-  if (!query) return { candidates: [], raw_count: 0 }
 
   const url = new URL(ENDPOINT)
   url.searchParams.set('query', query)
@@ -100,7 +97,6 @@ export async function searchPerson(row: DbRow, domain: string): Promise<SearchRe
     })
   }
 
-  // Read body once, parse, and surface error JSON even if HTTP status is 200.
   const bodyText = await resp.text()
   let data: { people?: ({ person?: RawPerson } & RawPerson)[]; error?: { code?: number; message?: string; status?: string } }
   try {
@@ -117,8 +113,9 @@ export async function searchPerson(row: DbRow, domain: string): Promise<SearchRe
   if (!resp.ok) {
     throw new Error(`People API ${resp.status}: ${bodyText.slice(0, 200)}`)
   }
-  // searchDirectoryPeople returns flat person objects; older docs/SDKs
-  // sometimes wrap each in { person: ... } so accept both shapes.
+
+  // searchDirectoryPeople returns flat person objects; some legacy doc
+  // examples wrap each in { person: ... } so accept both shapes.
   const people: RawPerson[] = (data.people ?? [])
     .map(p => (p && 'person' in p && p.person ? p.person : (p as unknown as RawPerson)))
     .filter((p): p is RawPerson => Boolean(p))
@@ -134,9 +131,53 @@ export async function searchPerson(row: DbRow, domain: string): Promise<SearchRe
       title,
       photo_url: pickPhoto(p),
       display_name: pickName(p),
-      score: 0,  // filled by scoring step
+      score: 0,
     })
   }
 
   return { candidates, raw_count: people.length }
+}
+
+function buildVariants(row: DbRow): string[] {
+  const full = (row.name || '').trim()
+  const first = (row.first_name || '').trim()
+  const last  = (row.last_name  || '').trim()
+  const variants: string[] = []
+  const seen = new Set<string>()
+  const add = (v: string) => {
+    const t = v.trim()
+    if (!t) return
+    const key = t.toLowerCase()
+    if (seen.has(key)) return
+    seen.add(key)
+    variants.push(t)
+  }
+  add(full)
+  if (first && last) add(`${first} ${last}`)
+  add(last)
+  return variants
+}
+
+/**
+ * Query the directory for one row, with cheap fallback variants when the
+ * full-name query returns nothing. Stops on the first variant that returns
+ * any candidates. raw_count reflects the variant that produced results.
+ */
+export async function searchPerson(row: DbRow, domain: string): Promise<SearchResult> {
+  const variants = buildVariants(row)
+  if (variants.length === 0) return { candidates: [], raw_count: 0 }
+
+  let lastResult: SearchResult = { candidates: [], raw_count: 0 }
+  for (let i = 0; i < variants.length; i++) {
+    const q = variants[i]!
+    const result = await querySingle(q, domain)
+    if (result.candidates.length > 0 || result.raw_count > 0) {
+      if (i > 0) {
+        console.debug(`[people] variant retry hit on "${q}" (was "${variants[0]}")`)
+      }
+      return result
+    }
+    lastResult = result
+  }
+  return lastResult
 }

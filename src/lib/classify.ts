@@ -7,10 +7,18 @@ export type ClassifyResult =
   | { kind: 'auto'; resolution: Resolution }
   | { kind: 'review'; item: ReviewItem }
 
-const AUTO_PICK_SCORE = 30
-const ACCEPT_SCORE = 20
-const ACCEPT_GAP = 15
-const SCORE_FLOOR = 10
+// Score thresholds — calibrated for the name-centric scoring (no dept/title
+// data from the directory for most schools). See scoring.ts.
+const VERIFIED_SCORE = 30      // existing-email match (instant lock)
+const STRONG_SCORE  = 25       // full-name token equality
+const ACCEPT_GAP    = 10       // gap to runner-up needed for auto-pick
+const SCORE_FLOOR   = 5        // below this = treat as no real match
+
+function isResolution(x: ClassifyResult): x is { kind: 'auto'; resolution: Resolution } {
+  return x.kind === 'auto'
+}
+
+void isResolution  // satisfy the unused-locals linter; kept for future readers
 
 export function classify(row: DbRow, ranked: Candidate[], domain: string): ClassifyResult {
   const top3 = ranked.slice(0, 3)
@@ -40,57 +48,80 @@ export function classify(row: DbRow, ranked: Candidate[], domain: string): Class
         decision: 'verified',
         email: row.current_email,
         source: `${row.current_email_source || 'unknown'}+verified_directory`,
-        score: 30,
+        score: VERIFIED_SCORE,
         confidence: 'high',
       },
     }
   }
 
-  // High confidence in the top candidate (score gate + gap gate)
-  const isAutoPick =
-    top.score >= AUTO_PICK_SCORE
-    || (top.score >= ACCEPT_SCORE && gap >= ACCEPT_GAP)
+  // Strong-score candidates (full-name match, etc.). Decide based on whether
+  // this is a single clear winner or a same-name pile.
+  if (top.score >= STRONG_SCORE) {
+    const strongPeers = ranked.filter(c => c.score >= STRONG_SCORE)
+    const isSingleClearWinner = strongPeers.length === 1 || gap >= ACCEPT_GAP
 
-  if (isAutoPick) {
-    if (!hasDbEmail) {
+    if (isSingleClearWinner) {
+      if (!hasDbEmail) {
+        return {
+          kind: 'auto',
+          resolution: {
+            researcher_id: row.researcher_id,
+            decision: 'auto_accept',
+            email: top.email,
+            source: sourceTag,
+            score: top.score,
+            confidence: 'high',
+          },
+        }
+      }
+      // DB has an email but directory disagrees. Auto-replace only if the
+      // existing email is low-confidence; otherwise friend review.
+      if (dbConf === 'pattern_guess' || dbConf === 'low' || dbConf === '') {
+        return {
+          kind: 'auto',
+          resolution: {
+            researcher_id: row.researcher_id,
+            decision: 'auto_replace',
+            email: top.email,
+            source: sourceTag,
+            score: top.score,
+            confidence: 'high',
+            old_email: row.current_email,
+            old_source: row.current_email_source,
+            old_confidence: row.current_email_confidence,
+          },
+        }
+      }
       return {
-        kind: 'auto',
-        resolution: {
-          researcher_id: row.researcher_id,
-          decision: 'auto_accept',
-          email: top.email,
-          source: sourceTag,
-          score: top.score,
-          confidence: 'high',
-        },
+        kind: 'review',
+        item: { row, candidates: top3, reason: 'high_conf_conflict' },
       }
     }
-    // DB has an email but directory disagrees. Auto-replace ONLY if the
-    // existing email is low-confidence (pattern guess or worse). Otherwise
-    // surface the conflict for friend review.
-    if (dbConf === 'pattern_guess' || dbConf === 'low' || dbConf === '') {
+
+    // Multiple strong-score candidates. If their display_names are
+    // identical (5× "Aarya Patel"), the friend has no signal in-browser to
+    // disambiguate — kick to operator-side LLM triage. If display_names
+    // differ ("Aaron Smith" vs "A. Smith"), friend can probably tell.
+    const displayNames = new Set(
+      strongPeers.map(c => c.display_name.trim().toLowerCase()).filter(Boolean),
+    )
+    if (displayNames.size <= 1) {
       return {
         kind: 'auto',
         resolution: {
           researcher_id: row.researcher_id,
-          decision: 'auto_replace',
-          email: top.email,
-          source: sourceTag,
-          score: top.score,
-          confidence: 'high',
-          old_email: row.current_email,
-          old_source: row.current_email_source,
-          old_confidence: row.current_email_confidence,
+          decision: 'operator_review',
+          candidates: strongPeers.slice(0, 5),
         },
       }
     }
     return {
       kind: 'review',
-      item: { row, candidates: top3, reason: 'high_conf_conflict' },
+      item: { row, candidates: top3, reason: 'multi_hit' },
     }
   }
 
-  // Below auto threshold. If the top is too weak, treat as no_hit.
+  // Below STRONG_SCORE. Last-name-only matches and similar weak signals.
   if (top.score < SCORE_FLOOR) {
     return {
       kind: 'auto',
@@ -98,7 +129,7 @@ export function classify(row: DbRow, ranked: Candidate[], domain: string): Class
     }
   }
 
-  // Multi candidates, weak top, or single weak hit → friend review
+  // Weak match — friend confirms.
   const reason: ReviewItem['reason'] =
     hasDbEmail
       ? (dbConf === 'high' ? 'high_conf_conflict' : 'low_conf_conflict')

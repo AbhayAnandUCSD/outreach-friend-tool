@@ -1,81 +1,75 @@
 // Score one directory candidate against one DB row. Higher = more likely
-// the same person. Caller filters out candidates that don't share a
-// last-name token (returns -Infinity).
+// the same person.
+//
+// Empirical note: third-party OAuth apps querying the People API only get
+// `name` + `email` for most Workspace tenants. `organizations` (department,
+// title) and `photos` come back empty. So the original dept/title/photo
+// signals were dead weight and silently rejected almost every real hit by
+// stranding the score at +5 (last-name baseline). This rewrite leans on
+// name-token comparisons and the email local-part instead.
 
 import type { Candidate, DbRow } from './types'
 
-const TITLE_ALIASES: Record<string, string[]> = {
-  'phd student':   ['graduate student', 'phd', 'doctoral', 'phd candidate', 'graduate research assistant', 'gra'],
-  'postdoc':       ['postdoctoral', 'post-doc', 'post doc', 'postdoctoral fellow', 'postdoctoral researcher', 'postdoctoral scholar'],
-  'masters':       ['master', 'msc', 'm.s.'],
-  'undergrad':     ['undergraduate', 'undergrad', 'b.s.', 'bachelor'],
-  'faculty':       ['professor', 'lecturer', 'instructor', 'assistant professor', 'associate professor'],
-  'research scientist': ['researcher', 'scientist'],
-}
-
-// Lab-name keywords that strongly signal a humanities/non-CS dept mismatch
-const HARD_DEPT_MISMATCH = [
-  'music', 'theatre', 'theater', 'religion', 'classics',
-  'art history', 'philosophy', 'theology', 'dance', 'poetry',
-]
+const STOPWORDS = new Set([
+  'jr', 'sr', 'ii', 'iii', 'iv', 'phd', 'md', 'dr',
+])
 
 function tokenize(s: string): string[] {
   return (s || '')
     .toLowerCase()
+    .normalize('NFKD').replace(/[̀-ͯ]/g, '')   // strip diacritics
     .replace(/[^a-z0-9\s-]/g, ' ')
     .split(/[\s-]+/)
-    .filter(Boolean)
+    .filter(t => t && !STOPWORDS.has(t))
+}
+
+function dbNameTokens(row: DbRow): string[] {
+  return tokenize(row.name || `${row.first_name} ${row.last_name}`)
+}
+
+function candidateNameTokens(c: Candidate): string[] {
+  return tokenize(c.display_name)
 }
 
 function hasLastNameOverlap(row: DbRow, candidate: Candidate): boolean {
   const dbLast = (row.last_name || '').trim().toLowerCase()
-  if (!dbLast) {
-    // Fall back to last token of full name
-    const fallback = tokenize(row.name).pop() || ''
-    if (!fallback) return false
-    return tokenize(candidate.display_name).includes(fallback)
+  const candTokens = new Set(candidateNameTokens(candidate))
+  if (dbLast) {
+    return tokenize(dbLast).some(t => candTokens.has(t))
   }
-  // Allow multi-word last names (e.g. "Van Houten")
-  const dbLastTokens = tokenize(dbLast)
-  const candTokens = new Set(tokenize(candidate.display_name))
-  return dbLastTokens.some(t => candTokens.has(t))
+  // Fall back to last token of full name
+  const fallback = dbNameTokens(row).pop()
+  return fallback ? candTokens.has(fallback) : false
 }
 
-function deptMatchesLab(department: string, labName: string): boolean {
-  if (!department || !labName) return false
-  const deptTokens = new Set(tokenize(department))
-  const labTokens = tokenize(labName).filter(t => t.length > 2 && !STOPWORDS.has(t))
-  // Lab names often contain a PI surname + "Lab" or "Group". Look for overlap
-  // on the substantive content tokens.
-  return labTokens.some(t => deptTokens.has(t))
-    || (labName.toLowerCase().includes('comput') && department.toLowerCase().includes('comput'))
-    || (labName.toLowerCase().includes('ai') && /artificial|machine learning|computer/i.test(department))
+function fullNameEqual(row: DbRow, candidate: Candidate): boolean {
+  const dbToks = new Set(dbNameTokens(row).filter(t => t.length > 1))
+  const cToks  = new Set(candidateNameTokens(candidate).filter(t => t.length > 1))
+  if (dbToks.size === 0 || cToks.size === 0) return false
+  // Bidirectional subset: every meaningful token on each side appears on
+  // the other. Allows ordering differences ("Jane Q. Doe" ≡ "Doe, Jane Q")
+  // but rejects extra surnames or different first names.
+  for (const t of dbToks) if (!cToks.has(t)) return false
+  for (const t of cToks) if (!dbToks.has(t)) return false
+  return true
 }
 
-const STOPWORDS = new Set([
-  'lab', 'group', 'laboratory', 'the', 'and', 'of', 'for', 'in', 'on',
-  'a', 'an', 'university', 'department',
-])
-
-function titleMatchesRole(title: string, role: string): boolean {
-  if (!title || !role) return false
-  const t = title.toLowerCase()
-  const r = role.toLowerCase()
-  if (t.includes(r) || r.includes(t)) return true
-  for (const [canon, aliases] of Object.entries(TITLE_ALIASES)) {
-    if (r.includes(canon) || aliases.some(a => r.includes(a))) {
-      if (t.includes(canon) || aliases.some(a => t.includes(a))) return true
-    }
-  }
-  return false
+function firstAndLastMatch(row: DbRow, candidate: Candidate): boolean {
+  const first = (row.first_name || '').trim().toLowerCase()
+  const last  = (row.last_name  || '').trim().toLowerCase()
+  if (!first || !last) return false
+  const cTokens = new Set(candidateNameTokens(candidate))
+  const firstHit = tokenize(first).some(t => cTokens.has(t))
+  const lastHit  = tokenize(last).some(t => cTokens.has(t))
+  return firstHit && lastHit
 }
 
-function deptHardMismatch(department: string, labName: string): boolean {
-  if (!department) return false
-  const d = department.toLowerCase()
-  const labTechy = /comput|engineer|robot|ai\b|machine|learn|vision|nlp|crypto|theory|systems|graphics/i.test(labName || '')
-  if (!labTechy) return false
-  return HARD_DEPT_MISMATCH.some(w => d.includes(w))
+function emailLocalContainsLastName(row: DbRow, candidate: Candidate): boolean {
+  const last = (row.last_name || '').trim().toLowerCase()
+  if (!last) return false
+  const local = (candidate.email.split('@')[0] || '').toLowerCase()
+  if (!local) return false
+  return tokenize(last).some(t => t.length >= 3 && local.includes(t))
 }
 
 export function scoreCandidate(row: DbRow, candidate: Candidate): number {
@@ -88,14 +82,14 @@ export function scoreCandidate(row: DbRow, candidate: Candidate): number {
     score += 30
   }
 
-  if (deptMatchesLab(candidate.department, row.lab_name)) {
-    score += 20
-  } else if (deptHardMismatch(candidate.department, row.lab_name)) {
-    score -= 20
+  if (fullNameEqual(row, candidate)) {
+    score += 25
+  } else if (firstAndLastMatch(row, candidate)) {
+    score += 15
   }
 
-  if (titleMatchesRole(candidate.title, row.role)) {
-    score += 15
+  if (emailLocalContainsLastName(row, candidate)) {
+    score += 5
   }
 
   return score
