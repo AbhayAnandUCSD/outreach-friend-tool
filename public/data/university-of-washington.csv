@@ -55,10 +55,12 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 1366,Barbara Mones,Barbara,Mones,Teaching Professor,Barbara Mones Lab,mones@cs.washington.edu,,,https://www.cs.washington.edu/people/faculty/barbara-mones/,https://www.cs.washington.edu/wp-content/uploads/elementor/thumbs/portrait-barbara-mones-qtona11za5xxu7axobd419izz2eeyxrtos23i1s4o0.jpg
 1352,Baris Kasikci,Baris,Kasikci,Professor,Baris Kasikci Lab,baris@cs.washington.edu,,,https://www.cs.washington.edu/people/faculty/baris-kasikci/,https://www.cs.washington.edu/wp-content/uploads/elementor/thumbs/portrait-baris-kasikci-qtl7nqahs9thdjm0andoua5m0lcvkae75uehzsa84g.jpg
 20557,Be-Emnet Elias,Be-Emnet,Elias,PhD Student,Vikram Iyer Lab,belias@cs.washington.edu,pattern_inferred,pattern_guess,,
+25509,Beibin Li,Beibin,Li,PhD Student,Linda Shapiro Lab,,,,,
 20408,Belle Liu,Belle,Liu,PhD Student,Matthew Golub Lab,belleliu@uw.edu,search_metadata,high,,
 20612,Ben Kushigian,Ben,Kushigian,PhD Student,René Just Lab,bkushigian@cs.washington.edu,pattern_inferred,pattern_guess,,
 20267,Benjamin Wu,Benjamin,Wu,PhD Student,Michael Ernst Lab,benjow@uw.edu,search_metadata,medium,,
 20097,Bhaumik Mehta,Bhaumik,Mehta,PhD Student,Byron Boots Lab,tanmehta@uw.edu,search_metadata,high,,
+25508,Bindita Chaudhuri,Bindita,Chaudhuri,PhD Student,Linda Shapiro Lab,,,,,
 21168,Bingcan (Gloria) Guo,Bingcan,(Gloria) Guo,PhD Student,Amy Zhang Lab,bguo@cs.washington.edu,pattern_inferred,pattern_guess,,
 20971,Bowei Chen,Bowei,Chen,PhD Student,Steven Seitz Lab,boweiche@andrew.cmu.edu,search_metadata,low,,
 21063,Brett Saiki,Brett,Saiki,PhD Student,Zachary Tatlock Lab,bsaiki@cs.washington.edu,search_metadata,high,,
@@ -106,6 +108,7 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 20050,David Durst,David,Durst,PhD Student,Gilbert Bernstein Lab,hdurst@wisc.edu,search_metadata,low,,
 1355,David Kohlbrenner,David,Kohlbrenner,Professor,David Kohlbrenner Lab,dkohlbre@cs.washington.edu,,,https://www.cs.washington.edu/people/faculty/david-kohlbrenner/,https://www.cs.washington.edu/wp-content/uploads/elementor/thumbs/portrait-david-kohlbrenner-qtku7fw0l6v3m72g7b9i6hnztsctqbstwu4gnicdy8.jpg
 20874,Dedong Xie,Dedong,Xie,PhD Student,Simon Peter Lab,dedongx@cs.washington.edu,search_metadata,high,,
+25507,Deepali Aneja,Deepali,Aneja,PhD Student,Linda Shapiro Lab,,,,,
 21115,Deniz Nazar,Deniz,Nazar,PhD Student,Yulia Tsvetkov Lab,dnazar@cs.washington.edu,pattern_inferred,pattern_guess,,
 20565,Dennis Yin,Dennis,Yin,PhD Student,Vikram Iyer Lab,Dickson.dennis@mayo.edu,search_metadata,low,,
 20902,Dev Sarma,Dev,Sarma,PhD Student,Rajesh P.N. Rao Lab,dsarma@cs.washington.edu,pattern_inferred,pattern_guess,,
@@ -296,6 +299,7 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 21111,Melanie Sclar,Melanie,Sclar,PhD Student,Yulia Tsvetkov Lab,msclar@cs.washington.edu,pattern_inferred,pattern_guess,,
 20177,Melissa Queen,Melissa,Queen,PhD Student,Luis Ceze Lab,mqueen@cs.washington.edu,pattern_inferred,pattern_guess,,
 20969,Mengyi Shan,Mengyi,Shan,PhD Student,Steven Seitz Lab,mshan@cs.washington.edu,pattern_inferred,pattern_guess,,
+25510,Meredith Wu,Meredith,Wu,PhD Student,Linda Shapiro Lab,,,,,
 1395,Michael Bedford Taylor,Michael,Bedford Taylor,Professor,Michael Bedford Taylor Lab,profmbt@uw.edu,,,https://www.cs.washington.edu/people/faculty/michael-taylor/,https://www.cs.washington.edu/wp-content/uploads/elementor/thumbs/portrait-michael-taylor-qtmrxql6lt9rvypytwhuoixoa1f5i4i8pnjzhiaun4.jpg
 1332,Michael Ernst,Michael,Ernst,Professor,Michael Ernst Lab,mernst@cs.washington.edu,,,https://www.cs.washington.edu/people/faculty/michael-ernst/,https://www.cs.washington.edu/wp-content/uploads/elementor/thumbs/portrait-michael-ernst-qt21fqynm2t07oov1z0r8l0ev1w7ydmpjr76g2mt9c.jpg
 20559,Michael Ibrahim,Michael,Ibrahim,PhD Student,Vikram Iyer Lab,mibrahim@cs.washington.edu,pattern_inferred,pattern_guess,,

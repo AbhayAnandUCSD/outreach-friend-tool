@@ -10,6 +10,7 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 21500,Addison Wu,Addison,Wu,PhD Student,Tom Griffiths Lab,addisonwu@princeton.edu,search_metadata,high,,
 1422,Adji Bousso Dieng,Adji,Bousso Dieng,Professor,Adji Bousso Dieng Lab,ad6725@cs.princeton.edu,,,https://www.cs.princeton.edu/people/profile/ad6725,https://www.cs.princeton.edu/sites/default/files/styles/profile_image/public/2025-11/dieng_directory.jpg?h=ab659dfd&amp;itok=mirb9x49
 21410,Advika Srivastava,Advika,Srivastava,PhD Student,Adji Bousso Dieng Lab,advikas@princeton.edu,discover_extract,high,,
+25830,Ahmed Turkman,Ahmed,Turkman,PhD Student,Benjamin Eysenbach Lab,,,,,
 21575,Akash Gaonkar,Akash,Gaonkar,PhD Student,Aarti Gupta Lab,agaonkar@cs.princeton.edu,search_metadata,high,,
 21835,Akhil Jakatdar,Akhil,Jakatdar,PhD Student,Ben Raphael Lab,aj7381@cs.princeton.edu,directory_princeton,high,,
 21411,Akshat Agarwal,Akshat,Agarwal,PhD Student,Adji Bousso Dieng Lab,akshat.agarwal@princeton.edu,discover_extract,high,,
@@ -24,6 +25,7 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 21390,Alex Raistrick,Alex,Raistrick,PhD Student,Jia Deng Lab,,,,,
 21672,Alexa Tartaglini,Alexa,Tartaglini,PhD Student,Brenden Lake Lab,,,,,
 21490,Alexander Ku,Alexander,Ku,PhD Student,Tom Griffiths Lab,alexku@princeton.edu,search_metadata,medium,,
+25816,Alicja Ziarko,Alicja,Ziarko,PhD Student,Benjamin Eysenbach Lab,,,,,
 21960,Allison Chen,Allison,Chen,PhD Student,Olga Russakovsky Lab,ac4802@cs.princeton.edu,directory_princeton,high,,
 21819,Amanda Sun,Amanda,Sun,PhD Student,Yuri Pritykin Lab,,,,,
 21963,Amaya Dharmasiri,Amaya,Dharmasiri,PhD Student,Olga Russakovsky Lab,,,,,
@@ -75,10 +77,12 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 21501,Bryan Zhang,Bryan,Zhang,PhD Student,Tom Griffiths Lab,,,,,
 21377,Caitlin Wang,Caitlin,Wang,PhD Student,Tri Dao Lab,caitlinb@princeton.edu,search_scrape,high,,
 21486,Cameron Turner,Cameron,Turner,Postdoc,Tom Griffiths Lab,c.rouse.turner@princeton.edu,search_metadata,high,,
+25831,Catherine Ji,Catherine,Ji,PhD Student,Benjamin Eysenbach Lab,,,,,
 21659,Changho Shin,Changho,Shin,Postdoc,Brenden Lake Lab,,,,,
 22005,Changjoo Park,Changjoo,Park,Postdoc,Sebastian Seung Lab,,,,,
 21598,Cheng Zheng,Cheng,Zheng,Postdoc,Felix Heide Lab,chengzh@princeton.edu,search_metadata,high,,
 21499,Cheryl Li,Cheryl,Li,PhD Student,Tom Griffiths Lab,,,,,
+25827,Chongyi Zheng,Chongyi,Zheng,PhD Student,Benjamin Eysenbach Lab,,,,,
 22007,Chris Salmon,Chris,Salmon,Postdoc,Sebastian Seung Lab,cksalmon@princeton.edu,search_metadata,high,,
 22140,Chris Sun,Chris,Sun,PhD Student,Olga Troyanskaya Lab,,,,,
 1427,Christiane Fellbaum,Christiane,Fellbaum,Lecturer,Christiane Fellbaum Lab,fellbaum@cs.princeton.edu,,,https://www.cs.princeton.edu/people/profile/fellbaum,https://www.cs.princeton.edu/sites/default/files/styles/profile_image/public/2024-09/fellbaum.jpg?h=5ace9f8c&amp;itok=MBY3axzw
@@ -94,12 +98,15 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 21409,Constance Ferragu,Constance,Ferragu,PhD Student,Adji Bousso Dieng Lab,cf7551@princeton.edu,discover_extract,medium,,
 21215,Cyrill Boesch,Cyrill,Boesch,PhD Student,Ryan Adams Lab,,,,,
 21223,Daniel Williams,Daniel,Williams,PhD Student,Ryan Adams Lab,awilliamsjones@princeton.edu,search_scrape,high,,
+25826,Daniel Yang,Daniel,Yang,PhD Student,Benjamin Eysenbach Lab,,,,,
 1417,Danqi Chen,Danqi,Chen,Professor,Danqi Chen Lab,danqic@cs.princeton.edu,,,https://www.cs.princeton.edu/people/profile/danqic,https://www.cs.princeton.edu/sites/default/files/styles/profile_image/public/2025-11/danqi%20chen_directory.jpg?h=8d771c10&amp;itok=VPAmOA-p
 1412,David August,David,August,Faculty,David August Lab,august@cs.princeton.edu,,,https://www.cs.princeton.edu/people/profile/august,https://www.cs.princeton.edu/sites/default/files/styles/profile_image/public/2024-09/default-profile.png?h=e8851265&amp;itok=AN58HIFO
 21973,David Beeson,David,Beeson,PhD Student,Olga Russakovsky Lab,,,,,
 1479,David Walker,David,Walker,Faculty,David Walker Lab,dpw@cs.princeton.edu,,,https://www.cs.princeton.edu/people/profile/dpw,https://www.cs.princeton.edu/sites/default/files/styles/profile_image/public/2024-08/dpw-profile.jpg?h=39f25a48&amp;itok=2BKJKrQ1
 21394,David Yan,David,Yan,PhD Student,Jia Deng Lab,david.z.yan@princeton.edu,search_metadata,high,,
+25821,Deepinder Mann,Deepinder,Mann,PhD Student,Benjamin Eysenbach Lab,,,,,
 24972,Derrick Rose,Derrick,Rose,Staff,Shantenu Jha Lab,,,,,
+25824,Devan Shah,Devan,Shah,PhD Student,Benjamin Eysenbach Lab,,,,,
 21577,Dexin Zhang,Dexin,Zhang,PhD Student,Aarti Gupta Lab,dexinli@princeton.edu,search_metadata,high,,
 22196,Deyuan (Mike) He,Deyuan,(Mike) He,PhD Student,David Walker Lab,,,,,
 21576,Deyuan He,Deyuan,He,PhD Student,Aarti Gupta Lab,,,,,
@@ -123,6 +130,7 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 22010,Eric Hammerschmith,Eric,Hammerschmith,PhD Student,Sebastian Seung Lab,,,,,
 21318,Eric Xue,Eric,Xue,PhD Student,Mark Braverman Lab,ex3782@cs.princeton.edu,directory_princeton,high,,
 21385,Erich Liang,Erich,Liang,PhD Student,Jia Deng Lab,erliang@princeton.edu,search_metadata,high,,
+25823,Eva Yi Xie,Eva,Yi Xie,PhD Student,Benjamin Eysenbach Lab,,,,,
 21484,Evan Russek,Evan,Russek,Postdoc,Tom Griffiths Lab,erussek@cs.princeton.edu,directory,high,,
 21718,Eve Fleisig,Eve,Fleisig,Postdoc,Lydia Liu Lab,,,,,
 21872,Fabio Vandin,Fabio,Vandin,Postdoc,Ben Raphael Lab,,,,,
@@ -136,6 +144,7 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 1444,Gillat Kol,Gillat,Kol,Professor,Gillat Kol Lab,gkol@cs.princeton.edu,,,https://www.cs.princeton.edu/people/profile/gkol,https://www.cs.princeton.edu/sites/default/files/styles/profile_image/public/2024-08/gkol-profile.png?h=0baa4ef9&amp;itok=_2v2R5wr
 21831,Gillian Chu,Gillian,Chu,PhD Student,Ben Raphael Lab,gillian.chu@princeton.edu,search_metadata,high,,
 21477,Gongqi Huang,Gongqi,Huang,PhD Student,Michael Freedman Lab,gongqih@princeton.edu,search_metadata,high,,
+25829,Grace Liu,Grace,Liu,PhD Student,Benjamin Eysenbach Lab,,,,,
 24986,Greg Hammett,Greg,Hammett,Staff,Shantenu Jha Lab,,,,,
 21582,Grigory Fedyukovich,Grigory,Fedyukovich,Postdoc,Aarti Gupta Lab,grigory@cs.fsu.edu,search_metadata,low,,
 21662,Guangyuan Jiang,Guangyuan,Jiang,PhD Student,Brenden Lake Lab,,,,,
@@ -161,6 +170,7 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 21482,Ionatan Kuperwajs,Ionatan,Kuperwajs,Postdoc,Tom Griffiths Lab,ikuperwajs@princeton.edu,search_metadata,high,,
 21786,Irene Sha,Irene,Sha,PhD Student,Radhika Nagpal Lab,shaharyarwani@princeton.edu,search_scrape,medium,,
 22081,Isabel Armour-Garb,Isabel,Armour-Garb,PhD Student,Mona Singh Lab,ia3026@cs.princeton.edu,directory_princeton,high,,
+25813,Ishaan Javali,Ishaan,Javali,PhD Student,Benjamin Eysenbach Lab,,,,,
 21388,Jack Nugent,Jack,Nugent,PhD Student,Jia Deng Lab,enugent@princeton.edu,search_metadata,high,,
 21376,Jack Zhang,Jack,Zhang,PhD Student,Tri Dao Lab,jackshaw@princeton.edu,search_scrape,medium,,
 22086,Jaden Luo,Jaden,Luo,PhD Student,Mona Singh Lab,,,,,
@@ -179,12 +189,14 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 1471,Jennifer Rexford,Jennifer,Rexford,Professor,Jennifer Rexford Lab,jrex@cs.princeton.edu,,,https://www.cs.princeton.edu/people/profile/jrex,https://www.cs.princeton.edu/sites/default/files/styles/profile_image/public/2024-08/jrex-profile.jpg?h=4c78709f&amp;itok=6Umic-j9
 21588,Jennifer Sun,Jennifer,Sun,PhD Student,Elad Hazan Lab,,,,,
 21224,Jenny Ni Zhan,Jenny,Ni Zhan,PhD Student,Ryan Adams Lab,jennifer.heuisler@princeton.edu,search_scrape,medium,,
+25835,Jens Tuyls,Jens,Tuyls,PhD Student,Benjamin Eysenbach Lab,,,,,
 1421,Jia Deng,Jia,Deng,Faculty,Jia Deng Lab,jiadeng@cs.princeton.edu,,,https://www.cs.princeton.edu/people/profile/jiadeng,https://www.cs.princeton.edu/sites/default/files/styles/profile_image/public/2024-08/jiadeng-profile_0.jpg?h=f00636d8&amp;itok=SVtRhpkJ
 1423,Jialin Ding,Jialin,Ding,Professor,Jialin Ding Lab,jd7765@cs.princeton.edu,,,https://www.cs.princeton.edu/people/profile/jd7765,https://www.cs.princeton.edu/sites/default/files/styles/profile_image/public/2025-11/ding%2C%20jialin_website%20directory.jpg?h=0597820b&amp;itok=ICB0_Yt3
 21487,Jianqiao Zhu,Jianqiao,Zhu,Postdoc,Tom Griffiths Lab,,,,,
 21267,Jiatong Yu,Jiatong,Yu,PhD Student,Sanjeev Arora Lab,jiatongy@cs.princeton.edu,search_metadata,high,,
 21961,Jihoon Chung,Jihoon,Chung,PhD Student,Olga Russakovsky Lab,jc5933@cs.princeton.edu,directory_princeton,high,,
 24980,Jin Chen,Jin,Chen,Staff,Shantenu Jha Lab,,,,,
+25836,Jin Schofield,Jin,Schofield,PhD Student,Benjamin Eysenbach Lab,,,,,
 21317,Jingyi Liu,Jingyi,Liu,PhD Student,Mark Braverman Lab,jl1606@cs.princeton.edu,directory_princeton,high,,
 21668,Jinran Jin,Jinran,Jin,PhD Student,Brenden Lake Lab,,,,,
 21600,Jipeng Sun,Jipeng,Sun,PhD Student,Felix Heide Lab,js2694@cs.princeton.edu,directory_princeton,high,,
@@ -207,7 +219,9 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 21222,Kathryn Wantlin,Kathryn,Wantlin,PhD Student,Ryan Adams Lab,kw2960@cs.princeton.edu,directory_princeton,high,,
 22211,Kaya Ito Alpturer,Kaya,Ito Alpturer,PhD Student,Matthew Weinberg Lab,ki5613@cs.princeton.edu,directory_princeton,high,,
 22139,Keerthana Nallamotu,Keerthana,Nallamotu,PhD Student,Olga Troyanskaya Lab,kn6412@cs.princeton.edu,directory_princeton,high,,
+25820,Kevin Frans,Kevin,Frans,PhD Student,Benjamin Eysenbach Lab,,,,,
 1462,Kevin Negy,Kevin,Negy,Lecturer,Kevin Negy Lab,kn3469@cs.princeton.edu,,,https://www.cs.princeton.edu/people/profile/kn3469,https://www.cs.princeton.edu/sites/default/files/styles/profile_image/public/2025-11/negy_directory.jpg?h=027e0bd9&amp;itok=12b5a9T0
+25812,Kevin Wang,Kevin,Wang,PhD Student,Benjamin Eysenbach Lab,,,,,
 1480,Kevin Wayne,Kevin,Wayne,Faculty,Kevin Wayne Lab,wayne@cs.princeton.edu,,,https://www.cs.princeton.edu/people/profile/wayne,https://www.cs.princeton.edu/sites/default/files/styles/profile_image/public/2024-08/wayne-profile_0.jpg?h=fd9bec5b&amp;itok=XQgrpaaO
 22133,Ksenia Sokolova,Ksenia,Sokolova,Postdoc,Olga Troyanskaya Lab,,,,,
 21968,Kun Wang,Kun,Wang,PhD Student,Olga Russakovsky Lab,takun.wang@princeton.edu,search_scrape,high,,
@@ -228,6 +242,7 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 21775,Liz Austell,Liz,Austell,PhD Student,Mae Milano Lab,ea7214@cs.princeton.edu,directory_princeton,high,,
 1450,Lydia Liu,Lydia,Liu,Professor,Lydia Liu Lab,ltliu@cs.princeton.edu,,,https://www.cs.princeton.edu/people/profile/ltliu,https://www.cs.princeton.edu/sites/default/files/styles/profile_image/public/2024-08/ltliu-profile.jpg?h=230f9fa3&amp;itok=1R20lXV_
 1456,Mae Milano,Mae,Milano,Faculty,Mae Milano Lab,mpmilano@cs.princeton.edu,,,https://www.cs.princeton.edu/people/profile/mpmilano,https://www.cs.princeton.edu/sites/default/files/styles/profile_image/public/2024-10/milano_5x7.jpg?h=37a8cd35&amp;itok=3p3UqAbv
+25828,Mahsa Bastankhah,Mahsa,Bastankhah,PhD Student,Benjamin Eysenbach Lab,,,,,
 24989,Manaure Francisquez,Manaure,Francisquez,Staff,Shantenu Jha Lab,,,,,
 1439,Manoel Horta Ribeiro,Manoel,Horta Ribeiro,Professor,Manoel Horta Ribeiro Lab,mh3586@cs.princeton.edu,,,https://www.cs.princeton.edu/people/profile/mh3586,https://www.cs.princeton.edu/sites/default/files/styles/profile_image/public/2025-03/mh3586_manoel_profile_0.jpg?h=fc7d0001&amp;itok=NGsKV5c2
 1418,Marcel Dall'Agnol,Marcel,Dall'Agnol,Lecturer,Marcel Dall'Agnol Lab,dallagnol@cs.princeton.edu,,,https://www.cs.princeton.edu/people/profile/dallagnol,https://www.cs.princeton.edu/sites/default/files/styles/profile_image/public/2024-08/dallagnol-profile.jpg?h=c15a5b8a&amp;itok=2y3_9usi
@@ -257,6 +272,9 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 24971,Michael Churchill,Michael,Churchill,Faculty,Shantenu Jha Lab,,,,,
 1431,Michael Freedman,Michael,Freedman,Professor,Michael Freedman Lab,mfreed@cs.princeton.edu,,,https://www.cs.princeton.edu/people/profile/mfreed,https://www.cs.princeton.edu/sites/default/files/styles/profile_image/public/2026-01/mfreed_freedman_profile.jpg?h=76ac4e50&amp;itok=qDLIjIQL
 21652,Michael Li,Michael,Li,PhD Student,Pravesh Kothari Lab,s.carmichael@princeton.edu,search_scrape,high,,
+25833,Michael Tang,Michael,Tang,PhD Student,Benjamin Eysenbach Lab,,,,,
+25817,Michal Zawalski,Michal,Zawalski,PhD Student,Benjamin Eysenbach Lab,,,,,
+25814,Michał Bortkiewicz,Michał,Bortkiewicz,PhD Student,Benjamin Eysenbach Lab,,,,,
 21794,Mike Wong,Mike,Wong,PhD Student,Ravi Netravali Lab,mikedwong@cs.princeton.edu,search_metadata,high,,
 21603,Mingkun Zhao,Mingkun,Zhao,PhD Student,Felix Heide Lab,mingkun.zhao@princeton.edu,search_metadata,high,,
 22084,Minh Hoang,Minh,Hoang,Postdoc,Mona Singh Lab,,,,,
@@ -279,6 +297,7 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 1473,Olga Russakovsky,Olga,Russakovsky,Professor,Olga Russakovsky Lab,olgarus@cs.princeton.edu,,,https://www.cs.princeton.edu/people/profile/olgarus,https://www.cs.princeton.edu/sites/default/files/styles/profile_image/public/2025-12/olgarussakovsky_website%20directory.jpg?h=eaa508eb&amp;itok=V4Qtzs2U
 21219,Olga Solodova,Olga,Solodova,PhD Student,Ryan Adams Lab,solodova@cs.princeton.edu,search_metadata,high,,
 1478,Olga Troyanskaya,Olga,Troyanskaya,Professor,Olga Troyanskaya Lab,ogt@cs.princeton.edu,,,https://www.cs.princeton.edu/people/profile/ogt,https://www.cs.princeton.edu/sites/default/files/styles/profile_image/public/2024-08/ogt-profile.jpg?h=d590064c&amp;itok=dt6-BOJQ
+25825,Owen Yang,Owen,Yang,PhD Student,Benjamin Eysenbach Lab,,,,,
 22242,Pachara Sawettamalya,Pachara,Sawettamalya,PhD Student,Huacheng Yu Lab,ps3122@cs.princeton.edu,directory_princeton,high,,
 21861,Palash Sashittal,Palash,Sashittal,Postdoc,Ben Raphael Lab,sashittal@vt.edu,search_metadata,low,,
 21877,Pamela Zave,Pamela,Zave,Postdoc,Jennifer Rexford Lab,pzave@cs.princeton.edu,directory,high,,
@@ -288,12 +307,14 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 1438,Peter Henderson,Peter,Henderson,Professor,Peter Henderson Lab,ph4162@cs.princeton.edu,,,https://www.cs.princeton.edu/people/profile/ph4162,https://www.cs.princeton.edu/sites/default/files/styles/profile_image/public/2024-10/henderson_ph4162-profile.jpg?h=96d2b4d4&amp;itok=FthNkHzS
 21496,Phoebe Zeng,Phoebe,Zeng,PhD Student,Tom Griffiths Lab,pk1124@cs.princeton.edu,directory_princeton,high,,
 21863,Pijus Simonaitis,Pijus,Simonaitis,Postdoc,Ben Raphael Lab,,,,,
+25818,Piotr Milos,Piotr,Milos,PhD Student,Benjamin Eysenbach Lab,,,,,
 21656,Prashanti Anderson,Prashanti,Anderson,PhD Student,Pravesh Kothari Lab,,,,,
 1446,Pravesh Kothari,Pravesh,Kothari,Professor,Pravesh Kothari Lab,kothari@cs.princeton.edu,,,https://www.cs.princeton.edu/people/profile/kothari,https://www.cs.princeton.edu/sites/default/files/styles/profile_image/public/2024-08/kothari-profile.jpg?h=e4c20b31&amp;itok=FQKVIrAe
 22209,Qianfan Zhang,Qianfan,Zhang,PhD Student,Matthew Weinberg Lab,qz0044@cs.princeton.edu,directory_princeton,high,,
 1459,Radhika Nagpal,Radhika,Nagpal,Professor,Radhika Nagpal Lab,rn1627@cs.princeton.edu,,,https://www.cs.princeton.edu/people/profile/rn1627,https://www.cs.princeton.edu/sites/default/files/styles/profile_image/public/2024-08/rn1627-profile.jpg?h=8954c45b&amp;itok=7AwA0lhp
 21479,Rafael Batista,Rafael,Batista,Postdoc,Tom Griffiths Lab,rbatista@princeton.edu,search_metadata,high,,
 21454,Rafael Oliveira,Rafael,Oliveira,PhD Student,Zeev Dvir Lab,,,,,
+25815,Raj Ghugare,Raj,Ghugare,PhD Student,Benjamin Eysenbach Lab,,,,,
 21493,Raja Marjieh,Raja,Marjieh,PhD Student,Tom Griffiths Lab,raja.marjieh@princeton.edu,search_metadata,high,,
 22003,Ran Lu,Ran,Lu,Postdoc,Sebastian Seung Lab,ranl@princeton.edu,search_metadata,medium,,
 1470,Ran Raz,Ran,Raz,Professor,Ran Raz Lab,ranr@cs.princeton.edu,,,https://www.cs.princeton.edu/people/profile/ranr,https://www.cs.princeton.edu/sites/default/files/styles/profile_image/public/2024-08/ranr-profile.jpg?h=9ccf1566&amp;itok=68gW4d7W
@@ -331,6 +352,7 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 21874,Satadal Sengupta,Satadal,Sengupta,PhD Student,Jennifer Rexford Lab,satadal.sengupta@princeton.edu,search_metadata,high,,
 21578,Sean Wang,Sean,Wang,PhD Student,Aarti Gupta Lab,sean.wang@princeton.edu,search_metadata,high,,
 1474,Sebastian Seung,Sebastian,Seung,Professor,Sebastian Seung Lab,sseung@cs.princeton.edu,,,https://www.cs.princeton.edu/people/profile/sseung,https://www.cs.princeton.edu/sites/default/files/styles/profile_image/public/2024-08/sseung-profile.jpg?h=a2c41ede&amp;itok=eFQSGrfc
+25819,Seohong Park,Seohong,Park,PhD Student,Benjamin Eysenbach Lab,,,,,
 21838,Sereno Lopez-Darwin,Sereno,Lopez-Darwin,PhD Student,Ben Raphael Lab,sereno@princeton.edu,search_metadata,high,,
 21866,Sergey Aganezov,Sergey,Aganezov,Postdoc,Ben Raphael Lab,,,,,
 21780,Shadaj Laddad,Shadaj,Laddad,PhD Student,Mae Milano Lab,,,,,
@@ -378,6 +400,7 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 1468,Vikram Ramaswamy,Vikram,Ramaswamy,Lecturer,Vikram Ramaswamy Lab,vr23@cs.princeton.edu,,,https://www.cs.princeton.edu/people/profile/vr23,https://www.cs.princeton.edu/sites/default/files/styles/profile_image/public/2024-08/vr23-profile.jpg?h=d2d7382d&amp;itok=PZrBkNhB
 24974,Vinayagam Pillai,Vinayagam,Pillai,Staff,Shantenu Jha Lab,,,,,
 21830,Viola Chen,Viola,Chen,PhD Student,Ben Raphael Lab,,,,,
+25832,Vivek Myers,Vivek,Myers,PhD Student,Benjamin Eysenbach Lab,,,,,
 21946,Vivien Nguyen,Vivien,Nguyen,PhD Student,Szymon Rusinkiewicz Lab,vivienn@cs.princeton.edu,search_metadata,high,,
 22129,Weiguang (Wayne) Mao,Weiguang,(Wayne) Mao,Postdoc,Olga Troyanskaya Lab,,,,,
 21816,Wenfan Ke,Wenfan,Ke,Postdoc,Yuri Pritykin Lab,,,,,
@@ -418,6 +441,7 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 21821,Yingying Zhang,Yingying,Zhang,PhD Student,Yuri Pritykin Lab,,,,,
 21795,Yinwei Dai,Yinwei,Dai,PhD Student,Ravi Netravali Lab,yd3358@cs.princeton.edu,directory_princeton,high,,
 22091,Yinying Zhang,Yinying,Zhang,Postdoc,Mona Singh Lab,,,,,
+25834,Yongwei Che,Yongwei,Che,PhD Student,Benjamin Eysenbach Lab,,,,,
 21667,Yueh-Han “John” Chen,Yueh-Han,“John” Chen,PhD Student,Brenden Lake Lab,,,,,
 21840,Yufan Xia,Yufan,Xia,PhD Student,Ben Raphael Lab,yx6674@cs.princeton.edu,directory_princeton,high,,
 21654,Yukai Tang,Yukai,Tang,PhD Student,Pravesh Kothari Lab,yushi.tang@princeton.edu,search_metadata,high,,

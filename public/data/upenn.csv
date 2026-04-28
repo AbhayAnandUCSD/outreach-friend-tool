@@ -22,12 +22,14 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 1277,Alejandro Ribeiro,Alejandro,Ribeiro,Professor,Alejandro Ribeiro Lab,aribeiro@seas.upenn.edu,,,https://directory.seas.upenn.edu/alejandro-ribeiro/,https://directory.seas.upenn.edu/wp-content/uploads/2020/03/ribeiro-alejandro.jpg
 19585,Alex Flynn Carroll,Alex,Flynn Carroll,PhD Student,Bogdan Pasaniuc Lab,Alexander.Flynn-Carroll@Pennmedicine.upenn.edu,search_scrape,high,,
 19498,Alex Nguyen-Le,Alex,Nguyen-Le,PhD Student,Nikolai Matni Lab,alex.ramirez@icahn.mssm.edu,search_scrape,low,,
+25333,Alex Shypula,Alex,Shypula,PhD Student,Osbert Bastani Lab,,,,,
 18782,Alexander Kyimpopkin,Alexander,Kyimpopkin,PhD Student,Pratik Chaudhari Lab,alexanderkyimpopkin@icloud.com,search_metadata,low,,
 18881,Alexandre Andre,Alexandre,Andre,PhD Student,Eva Dyer Lab,alexeev@sas.upenn.edu,search_metadata,medium,,
 18694,Alexis Andres,Alexis,Andres,Postdoc,Ryan Baker Lab,aandres@upenn.edu,pattern_inferred,pattern_guess,,
 18955,Ali Farahbakhsh,Ali,Farahbakhsh,PhD Student,Andreas Haeberlen Lab,farahbakhsh@cs.cornell.edu,search_metadata,low,,
 19042,Alice Kate Li,Alice,Kate Li,PhD Student,M. Ani Hsieh Lab,ali@upenn.edu,pattern_inferred,pattern_guess,,
 19521,Alireza Shirzad,Alireza,Shirzad,PhD Student,Pratyush Mishra Lab,ashirzad@upenn.edu,pattern_inferred,pattern_guess,,
+25362,Alisha Kodibagkar,Alisha,Kodibagkar,PhD Student,Christos Davatzikos Lab,,,,,
 19848,Allen Chang,Allen,Chang,PhD Student,Mark Yatskar Lab,mallen@seas.upenn.edu,search_scrape,high,,
 18628,"Almiqdad Saeed, MD",Almiqdad,"Saeed, MD",Postdoc,"Lama A. Al-Aswad, MD, MPH Lab",almiqdad.saeed@pennmedicine.upenn.edu,discover_extract,high,,
 19503,Alok Shah,Alok,Shah,PhD Student,Nikolai Matni Lab,alokshah@upenn.edu,search_metadata,high,,
@@ -43,9 +45,12 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 1282,Andre Scedrov,Andre,Scedrov,Professor,Andre Scedrov Lab,SCEDROV@MATH.UPENN.EDU,,,https://directory.seas.upenn.edu/andre-scedrov/,https://directory.seas.upenn.edu/wp-content/uploads/2020/06/directory-placeholder.jpg
 1226,Andreas Haeberlen,Andreas,Haeberlen,Professor,Andreas Haeberlen Lab,ahae@cis.upenn.edu,,,https://directory.seas.upenn.edu/andreas-haeberlen/,https://directory.seas.upenn.edu/wp-content/uploads/2020/03/haeberlen-andreas.jpg
 1229,Andrew Head,Andrew,Head,Professor,Andrew Head Lab,head@seas.upenn.edu,,,https://directory.seas.upenn.edu/andrew-head/,https://directory.seas.upenn.edu/wp-content/uploads/2024/08/Head_Andrew_headshot-for-Directoy-8.29.24-e1724965371699.jpg
+25357,Andrew Zhu,Andrew,Zhu,PhD Student,Chris Callison-Burch Lab,,,,,
 19859,Andrik Puentes,Andrik,Puentes,PhD Student,Mark Yim Lab,andrikp@seas.upenn.edu,search_metadata,high,,
 18952,Andy Lu,Andy,Lu,PhD Student,Andreas Haeberlen Lab,alu@upenn.edu,pattern_inferred,pattern_guess,,
+25477,Andy Schwartz,Andy,Schwartz,Postdoc,Lyle H. Ungar Lab,,,,,
 19475,Andy Wei,Andy,Wei,PhD Student,Rahul Mangharam Lab,weiandy@seas.upenn.edu,search_metadata,high,,
+25394,Angela Huang,Angela,Huang,PhD Student,Junhyong Kim Lab,,,,,
 19832,Anh Phan,Anh,Phan,PhD Student,Li-San Wang Lab,Phan4@seas.upenn.edu,discover_extract,medium,,
 18914,Anh-Quan Pham,Anh-Quan,Pham,PhD Student,Eric Eaton Lab,phamanhquanbill@gmail.com,search_metadata,low,,
 1211,Anindya De,Anindya,De,Professor,Anindya De Lab,anindyad@cis.upenn.edu,,,https://directory.seas.upenn.edu/anindya-de/,https://directory.seas.upenn.edu/wp-content/uploads/2020/03/de-anindya.jpg
@@ -71,6 +76,7 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 19088,Austin Wang,Austin,Wang,PhD Student,Zachary Ives Lab,awang@upenn.edu,pattern_inferred,pattern_guess,,
 18633,Avishree Khare,Avishree,Khare,PhD Student,Rajeev Alur Lab,akhare@seas.upenn.edu,search_metadata,high,,
 18696,Barry Slaff,Barry,Slaff,PhD Student,Yoseph Barash Lab,bslaff@seas.upenn.edu,discover_extract,high,,
+25387,Behrad Moniri,Behrad,Moniri,PhD Student,Hamed Hassani Lab,,,,,
 19272,Beiming Li,Beiming,Li,PhD Student,Vijay Kumar Lab,beimingl@seas.upenn.edu,discover_extract,high,,
 19045,Ben Shaffer,Ben,Shaffer,PhD Student,M. Ani Hsieh Lab,shaffers@pennmedicine.upenn.edu,search_metadata,high,,
 1248,Benjamin C. Lee,Benjamin,C. Lee,Professor,Benjamin C. Lee Lab,leebcc@seas.upenn.edu,,,https://directory.seas.upenn.edu/benjamin-c-lee/,https://directory.seas.upenn.edu/wp-content/uploads/2020/08/lee-benjamin-c.jpg
@@ -90,6 +96,7 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 19867,Boning Zhang,Boning,Zhang,PhD Student,Mark Yim Lab,bzhang@upenn.edu,pattern_inferred,pattern_guess,,
 1256,Boon Thau Loo,Boon,Thau Loo,Professor,Boon Thau Loo Lab,boonloo@cis.upenn.edu,,,https://directory.seas.upenn.edu/boon-thau-loo/,https://directory.seas.upenn.edu/wp-content/uploads/2020/03/loo-boon-thau.jpg
 18788,Boshu Lei,Boshu,Lei,PhD Student,Konstantinos Daniilidis Lab,blei@upenn.edu,pattern_inferred,pattern_guess,,
+25337,Botong Zhang,Botong,Zhang,PhD Student,Osbert Bastani Lab,,,,,
 18920,Boyu Wang,Boyu,Wang,Postdoc,Eric Eaton Lab,bwang@upenn.edu,pattern_inferred,pattern_guess,,
 1245,Brandon Krakowsky,Brandon,Krakowsky,Professor,Brandon Krakowsky Lab,lbrandon@wharton.upenn.edu,,,https://directory.seas.upenn.edu/brandon-krakowsky/,https://directory.seas.upenn.edu/wp-content/uploads/2020/03/Krakowsky-Brandon.jpg
 19287,Brandon ONeill,Brandon,ONeill,PhD Student,Benjamin C. Lee Lab,oneillb3@seas.upenn.edu,discover_extract,high,,
@@ -108,9 +115,11 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 19868,Charles Yoo,Charles,Yoo,PhD Student,Mark Yim Lab,,,,,
 19412,Chen Wang,Chen,Wang,PhD Student,Lingjie Liu Lab,cwang@upenn.edu,pattern_inferred,pattern_guess,,
 19949,Chenhao Zheng,Chenhao,Zheng,PhD Student,Mingmin Zhao Lab,czheng@upenn.edu,pattern_inferred,pattern_guess,,
+25441,Chenyuan Wu,Chenyuan,Wu,PhD Student,Ryan Marcus Lab,,,,,
 1204,Chris Callison-Burch,Chris,Callison-Burch,Professor,Chris Callison-Burch Lab,ccb@upenn.edu,,,https://directory.seas.upenn.edu/chris-callison-burch/,https://directory.seas.upenn.edu/wp-content/uploads/2020/03/callison-burch-chris.jpg
 18637,Chris Watson,Chris,Watson,PhD Student,Rajeev Alur Lab,ccwatson@seas.upenn.edu,search_scrape,high,,
 19929,Christine Rizkallah,Christine,Rizkallah,Postdoc,Stephan A. Zdancewic Lab,crizkallah@upenn.edu,pattern_inferred,pattern_guess,,
+25442,Christoph Anneser,Christoph,Anneser,PhD Student,Ryan Marcus Lab,,,,,
 18757,Christopher Hsu,Christopher,Hsu,PhD Student,Pratik Chaudhari Lab,chsu@upenn.edu,pattern_inferred,pattern_guess,,
 1306,Christopher S. Yoo,Christopher,S. Yoo,Professor,Christopher S. Yoo Lab,csyoo@law.upenn.edu,,,https://directory.seas.upenn.edu/christopher-s-yoo/,https://directory.seas.upenn.edu/wp-content/uploads/2020/06/directory-placeholder.jpg
 1209,Christos Davatzikos,Christos,Davatzikos,Professor,Christos Davatzikos Lab,christos.davatzikos@pennmedicine.upenn.edu,,,https://directory.seas.upenn.edu/christos-davatzikos/,https://directory.seas.upenn.edu/wp-content/uploads/2020/03/Davatzikos-Christos.jpg
@@ -138,8 +147,10 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 19886,David Kim,David,Kim,PhD Student,Mark Yim Lab,David.kim@pennmedicine.upenn.edu,search_metadata,high,,
 19490,David Snyder,David,Snyder,Postdoc,Nikolai Matni Lab,dsnyder@eoc.psu.edu,search_metadata,low,,
 19869,Davin Tjandra,Davin,Tjandra,PhD Student,Mark Yim Lab,dtjandra@upenn.edu,pattern_inferred,pattern_guess,,
+25388,Davis Brown,Davis,Brown,PhD Student,Hamed Hassani Lab,,,,,
 19217,Davy Deng,Davy,Deng,PhD Student,Konrad Paul Kording Lab,yutong.deng@pennmedicine.upenn.edu,search_metadata,high,,
 19982,Deeparnab Chakrabarty,Deeparnab,Chakrabarty,Postdoc,Sanjeev Khanna Lab,deeparnab@dartmouth.edu,search_metadata,low,,
+25356,Delip Rao,Delip,Rao,PhD Student,Chris Callison-Burch Lab,,,,,
 19270,Derek Cheng,Derek,Cheng,PhD Student,Vijay Kumar Lab,derek.y.cheng@gmail.com,search_metadata,low,,
 18760,Dexter Ong,Dexter,Ong,PhD Student,Pratik Chaudhari Lab,odexter@seas.upenn.edu,search_metadata,high,,
 19893,Dhaval Tantry,Dhaval,Tantry,PhD Student,Mark Yim Lab,dtantry@upenn.edu,pattern_inferred,pattern_guess,,
@@ -168,6 +179,7 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 18689,Elizabeth Margolin,Elizabeth,Margolin,PhD Student,Sebastian Angel Lab,ecmargo@seas.upenn.edu,search_metadata,medium,,
 19590,Ella Petter,Ella,Petter,PhD Student,Bogdan Pasaniuc Lab,epetter@upenn.edu,pattern_inferred,pattern_guess,,
 19721,Ellen Li,Ellen,Li,PhD Student,Cynthia Sung Lab,eli@upenn.edu,pattern_inferred,pattern_guess,,
+25355,Elliot Pickens,Elliot,Pickens,PhD Student,Chris Callison-Burch Lab,,,,,
 19509,Emma Lurie,Emma,Lurie,Postdoc,Danaé Metaxa Lab,ewlurie@seas.upenn.edu,search_metadata,high,,
 18635,Emma Shedden,Emma,Shedden,PhD Student,Rajeev Alur Lab,eshedden@upenn.edu,pattern_inferred,pattern_guess,,
 19458,Enlin Gu,Enlin,Gu,PhD Student,Rahul Mangharam Lab,egu@upenn.edu,pattern_inferred,pattern_guess,,
@@ -181,6 +193,7 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 18798,Evangelos Antypas,Evangelos,Antypas,PhD Student,Konstantinos Daniilidis Lab,eantypas@upenn.edu,pattern_inferred,pattern_guess,,
 18796,Evangelos Chatzipantazis,Evangelos,Chatzipantazis,PhD Student,Konstantinos Daniilidis Lab,echatzipantazis@upenn.edu,pattern_inferred,pattern_guess,,
 19286,Evelyn Li,Evelyn,Li,PhD Student,Benjamin C. Lee Lab,eli22@seas.upenn.edu,discover_extract,medium,,
+25364,Fanyang Yu,Fanyang,Yu,PhD Student,Christos Davatzikos Lab,,,,,
 19495,Farhad Nawaz,Farhad,Nawaz,PhD Student,Nikolai Matni Lab,farhadn@seas.upenn,search_metadata,low,,
 19212,Felipe Parodi,Felipe,Parodi,PhD Student,Konrad Paul Kording Lab,fparodi@upenn.edu,pattern_inferred,pattern_guess,,
 19496,Fengjun Yang,Fengjun,Yang,PhD Student,Nikolai Matni Lab,fengjun@seas.upenn.edu,search_metadata,high,,
@@ -191,10 +204,12 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 19653,Frederic Vatnsdal,Frederic,Vatnsdal,PhD Student,Alejandro Ribeiro Lab,vatnsdal@seas.upenn.edu,discover_extract,high,,
 19708,Gabriel Unger,Gabriel,Unger,PhD Student,Cynthia Sung Lab,gunge1@seas.upenn.edu,discover_extract,medium,,
 19950,Gaoxiang Luo,Gaoxiang,Luo,PhD Student,Mingmin Zhao Lab,gluo@upenn.edu,pattern_inferred,pattern_guess,,
+25360,George Aidinis,George,Aidinis,PhD Student,Christos Davatzikos Lab,,,,,
 1268,George J. Pappas,George,J. Pappas,Professor,George J. Pappas Lab,PAPPASG@SEAS.UPENN.EDU,,,https://directory.seas.upenn.edu/george-j-pappas/,https://directory.seas.upenn.edu/wp-content/uploads/2020/03/pappas-george.jpg
 19895,Georgia Georgostathi,Georgia,Georgostathi,PhD Student,Mark Yim Lab,ggeorgostathi@upenn.edu,pattern_inferred,pattern_guess,,
 19161,Georgy Noarov,Georgy,Noarov,PhD Student,Michael Kearns Lab,gnoarov@upenn.edu,pattern_inferred,pattern_guess,,
 19672,Grace Deng,Grace,Deng,PhD Student,Li Shen Lab,gdeng@upenn.edu,pattern_inferred,pattern_guess,,
+25353,Grace Kim,Grace,Kim,PhD Student,Chris Callison-Burch Lab,,,,,
 19896,Grace Liu,Grace,Liu,PhD Student,Mark Yim Lab,gliu@upenn.edu,pattern_inferred,pattern_guess,,
 19208,Griffin Addison,Griffin,Addison,PhD Student,Daniel E. Koditschek Lab,griffm@upenn.edu,search_scrape,medium,,
 18962,Guiqiu Liao,Guiqiu,Liao,Postdoc,Daniel A. Hashimoto Lab,guiqiu.liao@pennmedicine.upenn.edu,search_metadata,high,,
@@ -220,6 +235,7 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 1293,Henry P. Towsner,Henry,P. Towsner,Professor,Henry P. Towsner Lab,,,,https://directory.seas.upenn.edu/henry-p-towsner/,https://directory.seas.upenn.edu/wp-content/uploads/2026/02/Henry-Towsner-square.jpg
 19722,Henry Westfall,Henry,Westfall,PhD Student,Cynthia Sung Lab,hwestfall@upenn.edu,pattern_inferred,pattern_guess,,
 19884,Henry Zhao,Henry,Zhao,PhD Student,Mark Yim Lab,hzhao@upenn.edu,pattern_inferred,pattern_guess,,
+25395,Hieu Nguyen,Hieu,Nguyen,PhD Student,Junhyong Kim Lab,,,,,
 18969,Hita Kambhamettu,Hita,Kambhamettu,PhD Student,Andrew Head Lab,hitakam@seas.upenn.edu,discover_extract,medium,,
 19452,Hongrui Zheng,Hongrui,Zheng,PhD Student,Rahul Mangharam Lab,hongruiz@seas.upenn.edu,search_scrape,high,,
 18723,Howard Liu,Howard,Liu,PhD Student,Pranam Chatterjee Lab,hliu@upenn.edu,pattern_inferred,pattern_guess,,
@@ -246,6 +262,7 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 19651,Javier Porras-Valenzuela,Javier,Porras-Valenzuela,PhD Student,Alejandro Ribeiro Lab,jporras@seas.upenn.edu,discover_extract,medium,,
 1220,Jean H. Gallier,Jean,H. Gallier,Professor,Jean H. Gallier Lab,jean@cis.upenn.edu,,,https://directory.seas.upenn.edu/jean-h-gallier/,https://directory.seas.upenn.edu/wp-content/uploads/2020/03/gallier-jean.jpg
 19140,Jean Park,Jean,Park,PhD Student,Kevin B. Johnson Lab,hlpark@seas.upenn.edu,discover_extract,medium,,
+25392,Jean Rosario,Jean,Rosario,Postdoc,Junhyong Kim Lab,,,,,
 19026,Jeff Meister,Jeff,Meister,PhD Student,Michael Hicks Lab,jmeister@upenn.edu,pattern_inferred,pattern_guess,,
 18935,Jeff Nimeroff,Jeff,Nimeroff,PhD Student,Jean H. Gallier Lab,jnimeroff@upenn.edu,pattern_inferred,pattern_guess,,
 18970,Jeff Tao,Jeff,Tao,PhD Student,Andrew Head Lab,jtao@upenn.edu,pattern_inferred,pattern_guess,,
@@ -331,6 +348,7 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 19629,Leonardo Ferreira Guilhoto,Leonardo,Ferreira Guilhoto,PhD Student,Paris Perdikaris Lab,guilhoto@sas.upenn.edu,search_metadata,high,,
 1283,Li Shen,Li,Shen,Professor,Li Shen Lab,li.shen@pennmedicine.upenn.edu,,,https://directory.seas.upenn.edu/li-shen/,https://directory.seas.upenn.edu/wp-content/uploads/2025/12/Li_Shen-square.jpg
 1298,Li-San Wang,Li-San,Wang,Professor,Li-San Wang Lab,lswang@pennmedicine.upenn.edu,,,https://directory.seas.upenn.edu/li-san-wang/,https://directory.seas.upenn.edu/wp-content/uploads/2021/11/LSW-cropped-e1638307877588.jpg
+25358,Liam Dugan,Liam,Dugan,PhD Student,Chris Callison-Burch Lab,,,,,
 19785,Liangzu Peng,Liangzu,Peng,PhD Student,René Vidal Lab,lpeng@upenn.edu,pattern_inferred,pattern_guess,,
 19119,Lilian Li,Lilian,Li,PhD Student,Dinesh Jayaraman Lab,lili11@sas.upenn.edu,search_metadata,high,,
 19939,Limin Jia,Limin,Jia,Postdoc,Stephan A. Zdancewic Lab,ljia@upenn.edu,pattern_inferred,pattern_guess,,
@@ -353,6 +371,8 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 19256,Malakhi Hopkins,Malakhi,Hopkins,PhD Student,Vijay Kumar Lab,mhopkins@upenn.edu,pattern_inferred,pattern_guess,,
 18960,Manasa Dendukuri,Manasa,Dendukuri,PhD Student,Daniel A. Hashimoto Lab,mdendukuri@upenn.edu,pattern_inferred,pattern_guess,,
 18908,Marcel Hussing,Marcel,Hussing,PhD Student,Eric Eaton Lab,mhussing@seas.upenn.edu,search_metadata,high,,
+25334,Marcus Min,Marcus,Min,PhD Student,Osbert Bastani Lab,,,,,
+25361,Marilena De Pian,Marilena,De Pian,PhD Student,Christos Davatzikos Lab,,,,,
 19902,Marissa Teitelbaum,Marissa,Teitelbaum,PhD Student,Mark Yim Lab,mteitelbaum@upenn.edu,pattern_inferred,pattern_guess,,
 1252,Mark Y. Liberman,Mark,Y. Liberman,Professor,Mark Y. Liberman Lab,myl@cis.upenn.edu,,,https://directory.seas.upenn.edu/mark-y-liberman/,https://directory.seas.upenn.edu/wp-content/uploads/2020/03/Liberman-Mark.jpg
 1304,Mark Yatskar,Mark,Yatskar,Professor,Mark Yatskar Lab,myatskar@cis.upenn.edu,,,https://directory.seas.upenn.edu/mark-yatskar/,https://directory.seas.upenn.edu/wp-content/uploads/2025/10/Yatskar-Mark-squae.jpg
@@ -360,6 +380,7 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 18695,Matthew Gazzara,Matthew,Gazzara,Postdoc,Yoseph Barash Lab,mgazzara@upenn.edu,discover_extract,high,,
 18790,Matthew Leonard,Matthew,Leonard,PhD Student,Konstantinos Daniilidis Lab,Matthew.Leonard@ucsf.edu,search_metadata,low,,
 19260,Matthew Malencia,Matthew,Malencia,PhD Student,Vijay Kumar Lab,mmalencia@upenn.edu,pattern_inferred,pattern_guess,,
+25354,Maxine Liu,Maxine,Liu,PhD Student,Chris Callison-Burch Lab,,,,,
 1267,Mayur Naik,Mayur,Naik,Faculty,Mayur Naik Lab,mhnaik@cis.upenn.edu,,,https://directory.seas.upenn.edu/mayur-naik/,https://directory.seas.upenn.edu/wp-content/uploads/2020/03/naik-mayur.jpg
 1235,Meena Jagadeesan,Meena,Jagadeesan,Professor,Meena Jagadeesan Lab,meenaj@cis.upenn.edu,,,https://directory.seas.upenn.edu/meena-jagadeesan/,https://directory.seas.upenn.edu/wp-content/uploads/2025/10/Meena-Jagadeesan-square.jpg
 19210,Melanie Segado,Melanie,Segado,Postdoc,Konrad Paul Kording Lab,msegado@seas.upenn.edu,search_metadata,high,,
@@ -470,6 +491,7 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 19792,Salma Tarmoun,Salma,Tarmoun,PhD Student,René Vidal Lab,starmoun@sas.upenn.edu,search_metadata,high,,
 19117,Sam Wang,Sam,Wang,PhD Student,Dinesh Jayaraman Lab,swang@upenn.edu,pattern_inferred,pattern_guess,,
 19648,Samar Hadou,Samar,Hadou,PhD Student,Alejandro Ribeiro Lab,shadou@upenn.edu,pattern_inferred,pattern_guess,,
+25359,Samar Haider,Samar,Haider,PhD Student,Chris Callison-Burch Lab,,,,,
 19141,Sameer Bhatti,Sameer,Bhatti,PhD Student,Kevin B. Johnson Lab,sabhatti@seas.upenn.edu,discover_extract,high,,
 1239,Sampath K. Kannan,Sampath,K. Kannan,Professor,Sampath K. Kannan Lab,KANNAN@CIS.UPENN.EDU,,,https://directory.seas.upenn.edu/sampath-k-kannan/,https://directory.seas.upenn.edu/wp-content/uploads/2020/03/kannan-sampath.jpg
 19587,Sandra Lapinska,Sandra,Lapinska,PhD Student,Bogdan Pasaniuc Lab,Sandra.Lapinska@Pennmedicine.upenn.edu,search_scrape,high,,
@@ -481,6 +503,7 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 1199,Sebastian Angel,Sebastian,Angel,Professor,Sebastian Angel Lab,sga001@cis.upenn.edu,,,https://directory.seas.upenn.edu/sebastian-angel/,https://directory.seas.upenn.edu/wp-content/uploads/2020/03/angel-sebastian.jpg
 18631,Seewon Choi,Seewon,Choi,PhD Student,Rajeev Alur Lab,schoi@upenn.edu,pattern_inferred,pattern_guess,,
 18880,Sergey Shuvaev,Sergey,Shuvaev,Postdoc,Eva Dyer Lab,shuvaevv@pennmedicine.upenn.edu,search_scrape,high,,
+25393,Seung Yub Han,Seung,Yub Han,PhD Student,Junhyong Kim Lab,,,,,
 18705,Shahar Mayo,Shahar,Mayo,PhD Student,Yoseph Barash Lab,smayo@upenn.edu,pattern_inferred,pattern_guess,,
 19468,Shankai Chen,Shankai,Chen,PhD Student,Rahul Mangharam Lab,schen@upenn.edu,pattern_inferred,pattern_guess,,
 1225,Sharath Chandra Guntuku,Sharath,Chandra Guntuku,Professor,Sharath Chandra Guntuku Lab,sharathg@seas.upenn.edu,,,https://directory.seas.upenn.edu/sharath-chandra-guntuku/,https://directory.seas.upenn.edu/wp-content/uploads/2020/05/guntuku-sharath-chandra.jpg
@@ -536,6 +559,7 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 19115,Subin Kim,Subin,Kim,PhD Student,Dinesh Jayaraman Lab,Subin.George@pennmedicine.upenn.edu,search_metadata,high,,
 18726,Sumi Kimura,Sumi,Kimura,PhD Student,Pranam Chatterjee Lab,skimura@upenn.edu,pattern_inferred,pattern_guess,,
 19910,Summer Cobb,Summer,Cobb,PhD Student,Mark Yim Lab,scobb@upenn.edu,pattern_inferred,pattern_guess,,
+25389,Sunay Joshi,Sunay,Joshi,PhD Student,Hamed Hassani Lab,,,,,
 19909,Sunny Lee,Sunny,Lee,PhD Student,Mark Yim Lab,slee@upenn.edu,pattern_inferred,pattern_guess,,
 18944,Sunny Rai,Sunny,Rai,Postdoc,Sharath Chandra Guntuku Lab,sunnyrai@seas.upenn.edu,search_metadata,high,,
 1223,Surbhi Goel,Surbhi,Goel,Faculty,Surbhi Goel Lab,surbhig@cis.upenn.edu,,,https://directory.seas.upenn.edu/surbhi-goel/,https://directory.seas.upenn.edu/wp-content/uploads/2023/03/Surbhi-Goel_01.27.23-Surbhi-Goel-3-copy-e1678984066190.jpeg
@@ -559,6 +583,7 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 18789,Tim (Yunzhou) Song,Tim,(Yunzhou) Song,PhD Student,Konstantinos Daniilidis Lab,junsong.yuan@pennmedicine.upenn.edu,search_metadata,medium,,
 19970,Tim Clancy,Tim,Clancy,PhD Student,Brett Hemenway Lab,clancyt@seas.upenn.edu,search_metadata,high,,
 19205,Timothy Greco,Timothy,Greco,PhD Student,Daniel E. Koditschek Lab,tmgreco@seas.upenn.edu,search_metadata,high,,
+25476,Tingting Liu,Tingting,Liu,Postdoc,Lyle H. Ungar Lab,,,,,
 19285,Tom Huang,Tom,Huang,PhD Student,Benjamin C. Lee Lab,tomhuang@seas.upenn.edu,discover_extract,high,,
 18721,Tong Chen,Tong,Chen,PhD Student,Pranam Chatterjee Lab,tongw@chop.edu,search_scrape,low,,
 1264,Travis Q. McGaha,Travis,Q. McGaha,Faculty,Travis Q. McGaha Lab,tqmcgaha@seas.upenn.edu,,,https://directory.seas.upenn.edu/travis-q-mcgaha/,https://directory.seas.upenn.edu/wp-content/uploads/2025/10/McGaha-Travis-square-wide.jpg
@@ -570,6 +595,7 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 19699,Valerie Ang,Valerie,Ang,PhD Student,Anthony Sigillito Lab,valeang@seas.upenn.edu,discover_extract,high,,
 19732,Vanessa Gong,Vanessa,Gong,PhD Student,Cynthia Sung Lab,vgong@upenn.edu,pattern_inferred,pattern_guess,,
 19084,Varun Jana,Varun,Jana,PhD Student,Zachary Ives Lab,jvarun@seas.upenn.edu,search_metadata,high,,
+25363,Vasiliki Tassopoulou,Vasiliki,Tassopoulou,PhD Student,Christos Davatzikos Lab,,,,,
 18797,Vassiliki Vasileiou,Vassiliki,Vasileiou,PhD Student,Konstantinos Daniilidis Lab,vvasileiou@upenn.edu,pattern_inferred,pattern_guess,,
 19474,Venkateswara Rao Koduri,Venkateswara,Rao Koduri,PhD Student,Rahul Mangharam Lab,vkoduri@upenn.edu,pattern_inferred,pattern_guess,,
 1275,Victor M. Preciado,Victor,M. Preciado,Professor,Victor M. Preciado Lab,preciado@seas.upenn.edu,,,https://directory.seas.upenn.edu/victor-m-preciado/,https://directory.seas.upenn.edu/wp-content/uploads/2020/03/preciado-victor.jpg
@@ -605,6 +631,7 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 19396,Xiayan Ji,Xiayan,Ji,PhD Student,Insup Lee Lab,xji@upenn.edu,pattern_inferred,pattern_guess,,
 19947,Xin Yang,Xin,Yang,PhD Student,Mingmin Zhao Lab,xyang@upenn.edu,pattern_inferred,pattern_guess,,
 19669,Xingran Chen,Xingran,Chen,PhD Student,Shirin Saeedi Bidokhti Lab,xingranc@ieee.org,search_metadata,low,,
+25386,Xinmeng Huang,Xinmeng,Huang,PhD Student,Hamed Hassani Lab,,,,,
 19632,Xinquan Huang,Xinquan,Huang,Postdoc,Paris Perdikaris Lab,xinquan.huang@kaust.edu.sa,search_metadata,low,,
 19588,Xinzhe Li,Xinzhe,Li,PhD Student,Bogdan Pasaniuc Lab,Xinzhe.Li@Pennmedicine.upenn.edu,search_scrape,high,,
 19032,Xiping Sun,Xiping,Sun,PhD Student,Rachel Holladay Lab,xsun@upenn.edu,pattern_inferred,pattern_guess,,
@@ -618,6 +645,7 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 19926,Yannick Zakowski,Yannick,Zakowski,Postdoc,Stephan A. Zdancewic Lab,yzakowski@upenn.edu,pattern_inferred,pattern_guess,,
 19862,Yanzhao Wang,Yanzhao,Wang,PhD Student,Mark Yim Lab,ywang@upenn.edu,pattern_inferred,pattern_guess,,
 19954,Yao Gong,Yao,Gong,PhD Student,Mingmin Zhao Lab,jygong@seas.upenn.edu,search_metadata,medium,,
+25377,Yao Tang,Yao,Tang,PhD Student,Jiatao Gu Lab,,,,,
 1238,Yasmin Kafai,Yasmin,Kafai,Professor,Yasmin Kafai Lab,kafai@gse.upenn.edu,,,https://directory.seas.upenn.edu/yasmin-kafai/,https://directory.seas.upenn.edu/wp-content/uploads/2020/03/Kafai-Yasmin.jpg
 19968,Yassine Saadi-Elmandjra,Yassine,Saadi-Elmandjra,PhD Student,Brett Hemenway Lab,ysaadi-elmandjra@upenn.edu,pattern_inferred,pattern_guess,,
 19912,Yeon Lee,Yeon,Lee,Undergraduate,Mark Yim Lab,,,,,
@@ -640,6 +668,7 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 18718,Yinuo Zhang,Yinuo,Zhang,PhD Student,Pranam Chatterjee Lab,zhyinuo@seas.upenn.edu,search_scrape,high,,
 19951,Yiwei Tang,Yiwei,Tang,PhD Student,Mingmin Zhao Lab,ytang@upenn.edu,pattern_inferred,pattern_guess,,
 19449,Yon Vanommeslaeghe,Yon,Vanommeslaeghe,Postdoc,Rahul Mangharam Lab,yvanommeslaeghe@upenn.edu,pattern_inferred,pattern_guess,,
+25378,Yong-Hyun Park,Yong-Hyun,Park,PhD Student,Jiatao Gu Lab,,,,,
 19028,Yongseok Kwon,Yongseok,Kwon,PhD Student,Rachel Holladay Lab,ykwon@upenn.edu,pattern_inferred,pattern_guess,,
 1201,Yoseph Barash,Yoseph,Barash,Professor,Yoseph Barash Lab,yosephb@seas.upenn.edu,,,https://directory.seas.upenn.edu/yoseph-barash/,https://directory.seas.upenn.edu/wp-content/uploads/2020/10/Barash-Yoseph.jpg
 18948,Young Min (Jeffrey) Cho,Young,Min (Jeffrey) Cho,PhD Student,Sharath Chandra Guntuku Lab,ycho@upenn.edu,pattern_inferred,pattern_guess,,
@@ -656,6 +685,7 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 18719,Zachary Quinn,Zachary,Quinn,PhD Student,Pranam Chatterjee Lab,ghazal.quinn@pennmedicine.upenn.edu,search_metadata,high,,
 18769,Zaixin Ou,Zaixin,Ou,PhD Student,Pratik Chaudhari Lab,zou@upenn.edu,pattern_inferred,pattern_guess,,
 18763,Zhaoze Wang,Zhaoze,Wang,PhD Student,Pratik Chaudhari Lab,zhaoyif@sas.upenn.edu,search_scrape,medium,,
+25391,Zhen Miao,Zhen,Miao,Postdoc,Junhyong Kim Lab,,,,,
 19945,Zhiwei Zheng,Zhiwei,Zheng,PhD Student,Mingmin Zhao Lab,zzheng@upenn.edu,pattern_inferred,pattern_guess,,
 19709,Zhiyuan (Annie) Yang,Zhiyuan,(Annie) Yang,PhD Student,Cynthia Sung Lab,annieyzy@seas.upenn.edu,discover_extract,medium,,
 19591,Zhuozheng Shi,Zhuozheng,Shi,PhD Student,Bogdan Pasaniuc Lab,zshi@upenn.edu,pattern_inferred,pattern_guess,,

@@ -32,6 +32,7 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 6626,Andrew Arena,Andrew,Arena,PhD Student,Abe Davis Lab,,,,,
 8024,Andrew Butt,Andrew,Butt,PhD Student,Zhiru Zhang Lab,atb78@cornell,discover_extract,low,,
 7362,Andrew Cheung,Andrew,Cheung,PhD Student,Sorin Lerner Lab,,,,,
+25483,Andrew Kang,Andrew,Kang,PhD Student,Sainyam Galhotra Lab,,,,,
 7423,Andrew Micheal Thomas,Andrew,Micheal Thomas,Postdoc,David S. Matteson Lab,andrew-thomas@uiowa.edu,search_metadata,low,,
 324,Andrew Myers,Andrew,Myers,Professor,Andrew Myers Lab,andru@cs.cornell.edu,,,https://www.cs.cornell.edu/people/andrew-myers,https://www.cs.cornell.edu/sites/default/files/styles/profile_hero/public/2025-08/andrew-myers-16x9.png?h=44e502a5&amp;itok=Ccqh2xVH
 326,Andrew Owens,Andrew,Owens,Professor,Andrew Owens Lab,andrew.owens@cornell.edu,,,https://www.cs.cornell.edu/people/andrew-owens,https://www.cs.cornell.edu/sites/default/files/styles/profile_hero/public/2025-08/owens-andrew-1440x1440.jpg?h=adf6292f&amp;itok=PbkJbU6Z
@@ -47,6 +48,7 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 6810,Anmol Kabra,Anmol,Kabra,PhD Student,Carla Gomes Lab,anmol@cs.cornell.edu,search_metadata,high,,
 7737,Ann-Kareen Gedeus,Ann-Kareen,Gedeus,PhD Student,Angelique Taylor Lab,,,,,
 6206,Anna Effenberger,Anna,Effenberger,PhD Student,Yoav Artzi Lab,,,,,
+25478,Anna Mazhar,Anna,Mazhar,PhD Student,Sainyam Galhotra Lab,,,,,
 6426,Anna Yesypenko,Anna,Yesypenko,PhD Student,David Bindel Lab,annayesy@utexas.edu,search_metadata,low,,
 6200,Anne Wu,Anne,Wu,PhD Student,Yoav Artzi Lab,,,,,
 7570,Anshuman Mohan,Anshuman,Mohan,PhD Student,Adrian Sampson Lab,,,,,
@@ -74,6 +76,7 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 6451,Beatriz Asfora,Beatriz,Asfora,PhD Student,Mark Campbell Lab,ba386@cornell.edu,discover_extract,medium,,
 6828,Ben Kraus,Ben,Kraus,PhD Student,Carla Gomes Lab,,,,,
 7179,Ben Laufer,Ben,Laufer,PhD Student,Jon Kleinberg Lab,,,,,
+25487,Benton Li,Benton,Li,PhD Student,Sainyam Galhotra Lab,,,,,
 297,Bharath Hariharan,Bharath,Hariharan,Professor,Bharath Hariharan Lab,,,,https://www.cs.cornell.edu/people/bharath-hariharan,https://www.cs.cornell.edu/sites/default/files/styles/profile_hero/public/2025-08/bharath-hariharan-16x9.png?h=68adb54f&amp;itok=UcgHUSLc
 7702,Bhaskar Kataria,Bhaskar,Kataria,PhD Student,Rachee Singh Lab,bhaskar7@cs.cornell.edu,search_metadata,high,,
 7707,Bill Owens,Bill,Owens,PhD Student,Rachee Singh Lab,,,,,
@@ -150,6 +153,7 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 338,David Shmoys,David,Shmoys,Professor,David Shmoys Lab,david.shmoys@cornell.edu,,,https://www.cs.cornell.edu/people/david-shmoys,https://www.cs.cornell.edu/sites/default/files/styles/profile_hero/public/images/people/David_Shmoys.jpg?h=79d7425c&amp;itok=HT-2vGsn
 361,David Williamson,David,Williamson,Professor,David Williamson Lab,dpw@cs.cornell.edu,,,https://www.cs.cornell.edu/people/david-williamson,https://www.cs.cornell.edu/sites/default/files/styles/profile_hero/public/2025-08/avatar_huf5b8210202f7440519cacea091a6dcf2_313544_250x250_fill_q90_lanczos_center.jpg?h=038a9462&amp;itok=isxzA769
 6480,David Wu,David,Wu,PhD Student,Sanjiban Choudhury Lab,dbw78@cornell.edu,directory_cornell,high,,
+25489,Daye Kang,Daye,Kang,PhD Student,Malte F. Jung Lab,,,,,
 7008,Debargha Dey,Debargha,Dey,Postdoc,Wendy Ju Lab,dey@tue.edu,search_metadata,low,,
 278,Deborah Estrin,Deborah,Estrin,Faculty,Deborah Estrin Lab,destrin@cornell.edu,,,https://www.cs.cornell.edu/people/deborah-estrin,https://www.cs.cornell.edu/sites/default/files/styles/profile_hero/public/2025-08/estrin_deborah_007hr5-1.jpg?h=9d950064&amp;itok=uDN3ySht
 7806,Deepak Varuvel Dennison,Deepak,Varuvel Dennison,PhD Student,Aditya Vashistha Lab,,,,,
@@ -164,6 +168,7 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 290,Donald Greenberg,Donald,Greenberg,Professor,Donald Greenberg Lab,dpg5@cornell.edu,,,https://www.cs.cornell.edu/people/donald-greenberg,https://www.cs.cornell.edu/sites/default/files/styles/profile_hero/public/2025-10/don_greenberg.jpg?h=1e66e246&amp;itok=UUBgCX2Y
 7850,Dongyoung Go,Dongyoung,Go,Postdoc,Kilian Weinberger Lab,,,,,
 7966,Dylan Lee,Dylan,Lee,PhD Student,Cheng Zhang Lab,dl634@cornell.edu,discover_extract,medium,,
+25495,Eddie(Kuangqi) Zhu,Eddie(Kuangqi),Zhu,PhD Student,Malte F. Jung Lab,,,,,
 6497,Eden Shaveet,Eden,Shaveet,PhD Student,Tanzeem Choudhury Lab,,,,,
 7267,Edgar Marroquin,Edgar,Marroquin,PhD Student,Volodymyr Kuleshov Lab,emarro@cs.cornell.edu,search_metadata,medium,,
 7579,Edmund Lam,Edmund,Lam,PhD Student,Adrian Sampson Lab,,,,,
@@ -174,6 +179,7 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 6896,Emma Cohn,Emma,Cohn,PhD Student,Guy Hoffman Lab,,,,,
 7217,Erald Sinanaj,Erald,Sinanaj,PhD Student,Robert Kleinberg Lab,erald@cs.cornell.edu,search_metadata,high,,
 7704,Eric Ding,Eric,Ding,PhD Student,Rachee Singh Lab,ericding@cs.cornell.edu,search_metadata,high,,
+25479,Eric Enouen,Eric,Enouen,PhD Student,Sainyam Galhotra Lab,,,,,
 6311,Eric Hu,Eric,Hu,PhD Student,Tapomayukh Bhattacharjee Lab,,,,,
 6436,Eric Ma,Eric,Ma,PhD Student,David Bindel Lab,,,,,
 6757,Erica Chiang,Erica,Chiang,PhD Student,Nikhil Garg Lab,ericachiang@cs.cornell.edu,search_metadata,high,,
@@ -291,6 +297,7 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 6440,Jiexun Xu,Jiexun,Xu,PhD Student,David Bindel Lab,jiexunxu@cs.cornell.edu,search_metadata,high,,
 7855,Jin Zhou,Jin,Zhou,PhD Student,Kilian Weinberger Lab,,,,,
 6741,Joey Castillo,Joey,Castillo,Staff,Deborah Estrin Lab,,,,,
+25490,Johan Michalove,Johan,Michalove,PhD Student,Malte F. Jung Lab,,,,,
 300,John Hopcroft,John,Hopcroft,Professor,John Hopcroft Lab,jeh@cs.cornell.edu,,,https://www.cs.cornell.edu/people/john-hopcroft,https://www.cs.cornell.edu/sites/default/files/styles/profile_hero/public/2025-06/0781_07_a_014_select.jpg?h=5483fcba&amp;itok=E9mv5kTo
 7586,John Palsberg,John,Palsberg,PhD Student,Adrian Sampson Lab,,,,,
 350,John Thickstun,John,Thickstun,Professor,John Thickstun Lab,jthickstun@cornell.edu,,,https://www.cs.cornell.edu/people/john-thickstun,https://www.cs.cornell.edu/sites/default/files/styles/profile_hero/public/images/people/thumbnail_john-thickstun.jpg?h=4e8d6f4c&amp;itok=DIP7m8WE
@@ -316,6 +323,7 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 6682,Junkai Huang,Junkai,Huang,PhD Student,Saikat Dutta Lab,,,,,
 7693,Justin Brickell,Justin,Brickell,PhD Student,Vitaly Shmatikov Lab,jlbrick@cs.utexas.edu,search_metadata,low,,
 301,Justin Hsu,Justin,Hsu,Professor,Justin Hsu Lab,justin@cs.cornell.edu,,,https://www.cs.cornell.edu/people/justin-hsu,https://www.cs.cornell.edu/sites/default/files/styles/profile_hero/public/2025-08/justin-hsu-16x9.png?h=8663ca18&amp;itok=UQ0ZB8ne
+25485,Justin Kong,Justin,Kong,PhD Student,Sainyam Galhotra Lab,,,,,
 7856,Justin Lovelace,Justin,Lovelace,PhD Student,Kilian Weinberger Lab,,,,,
 279,K.-Y. Daisy Fan,K.-Y.,Daisy Fan,Teaching Professor,K.-Y. Daisy Fan Lab,daisy.fan@cornell.edu,,,https://www.cs.cornell.edu/people/k-y-daisy-fan,https://www.cs.cornell.edu/sites/default/files/styles/profile_hero/public/2025-07/dfan_bw_2022.png?h=d1cb525d&amp;itok=lBtYsISZ
 6300,Kaan Akan,Kaan,Akan,PhD Student,Christopher Batten Lab,,,,,
@@ -412,6 +420,7 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 6880,Michael Hu,Michael,Hu,PhD Student,Guy Hoffman Lab,,,,,
 7427,Michael Jauch,Michael,Jauch,Postdoc,David S. Matteson Lab,mjauch@fsu.edu,search_metadata,low,,
 307,Michael Kim,Michael,Kim,Professor,Michael Kim Lab,mpk@cs.cornell.edu,,,https://www.cs.cornell.edu/people/michael-kim,https://www.cs.cornell.edu/sites/default/files/styles/profile_hero/public/2025-07/mkim-2.jpg?h=619cbd6f&amp;itok=OrI4QeFs
+25492,Michael Sack,Michael,Sack,PhD Student,Malte F. Jung Lab,,,,,
 6850,Michael Shen,Michael,Shen,PhD Student,Udit Gupta Lab,,,,,
 6878,Michael Suguitan,Michael,Suguitan,PhD Student,Guy Hoffman Lab,,,,,
 7573,Michael Xing,Michael,Xing,PhD Student,Adrian Sampson Lab,grace.xing@cornell.edu,search_metadata,high,,
@@ -427,6 +436,7 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 6427,Moteleolu Onabajo,Moteleolu,Onabajo,PhD Student,David Bindel Lab,,,,,
 7408,Mukund Gaur,Mukund,Gaur,PhD Student,José F. Martínez Lab,,,,,
 7588,Nagaa Dhaba,Nagaa,Dhaba,PhD Student,Adrian Sampson Lab,,,,,
+25494,Nanyi Jiang,Nanyi,Jiang,PhD Student,Malte F. Jung Lab,,,,,
 6996,Natalie Friedman,Natalie,Friedman,PhD Student,Wendy Ju Lab,nvfriedm@gmail.com,search_scrape,low,,
 282,Nate Foster,Nate,Foster,Professor,Nate Foster Lab,jnfoster@cs.cornell.edu,,,https://www.cs.cornell.edu/people/nate-foster,https://www.cs.cornell.edu/sites/default/files/styles/profile_hero/public/2025-08/nate_foster-16x9.png?h=e7f7be8c&amp;itok=e7N3bK9Y
 6197,Nathan Godey,Nathan,Godey,Postdoc,Yoav Artzi Lab,,,,,
@@ -441,6 +451,7 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 8022,Niansong Zhang,Niansong,Zhang,PhD Student,Zhiru Zhang Lab,nz264@cornell,discover_extract,low,,
 342,Nicholas Spooner,Nicholas,Spooner,Professor,Nicholas Spooner Lab,nspooner@cornell.edu,,,https://www.cs.cornell.edu/people/nicholas-spooner,https://www.cs.cornell.edu/sites/default/files/styles/profile_hero/public/2025-07/nick-spooner.jpg?h=22cb73ce&amp;itok=u8EDziUP
 6292,Nick Cebry,Nick,Cebry,PhD Student,Christopher Batten Lab,,,,,
+25502,Nicky Kriplani,Nicky,Kriplani,PhD Student,Angelina Wang Lab,,,,,
 272,Nicola Dell,Nicola,Dell,Faculty,Nicola Dell Lab,nld42@cornell.edu,,,https://www.cs.cornell.edu/people/nicola-dell,https://www.cs.cornell.edu/sites/default/files/styles/profile_hero/public/images/people/niclidell.jpg?h=199dbf31&amp;itok=kO6VdymS
 7403,Nicole Li,Nicole,Li,PhD Student,José F. Martínez Lab,,,,,
 6897,Nikhil Dhawan,Nikhil,Dhawan,PhD Student,Guy Hoffman Lab,,,,,
@@ -448,6 +459,7 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 7589,Nikil Shyamsunder,Nikil,Shyamsunder,PhD Student,Adrian Sampson Lab,,,,,
 6294,Niklas Schmelzle,Niklas,Schmelzle,PhD Student,Christopher Batten Lab,,,,,
 6433,Nimit Sohoni,Nimit,Sohoni,PhD Student,David Bindel Lab,,,,,
+25480,Ning Wang,Ning,Wang,PhD Student,Sainyam Galhotra Lab,,,,,
 7590,Nipat Chenthanakij,Nipat,Chenthanakij,PhD Student,Adrian Sampson Lab,,,,,
 6825,Nir Etzion,Nir,Etzion,PhD Student,Carla Gomes Lab,,,,,
 7831,Nitika Saran,Nitika,Saran,PhD Student,Hakim Weatherspoon Lab,nsaran@cs.cornell.edu,search_metadata,high,,
@@ -531,6 +543,7 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 6812,Runzhe Yang,Runzhe,Yang,PhD Student,Carla Gomes Lab,,,,,
 6866,Ruojin Cai,Ruojin,Cai,PhD Student,Bharath Hariharan Lab,,,,,
 6304,Ruolin Ye,Ruolin,Ye,PhD Student,Tapomayukh Bhattacharjee Lab,ruolin@cs.cornell.edu,search_metadata,high,,
+25491,Ruth Martinez-Yepes,Ruth,Martinez-Yepes,PhD Student,Malte F. Jung Lab,,,,,
 7593,Ryan Fu,Ryan,Fu,PhD Student,Adrian Sampson Lab,,,,,
 7394,Sabrina Ning,Sabrina,Ning,PhD Student,Wei-Chiu Ma Lab,,,,,
 7748,Saebyeol Shin,Saebyeol,Shin,PhD Student,John Thickstun Lab,saebyeol@cs.cornell.edu,search_metadata,high,,
@@ -569,6 +582,7 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 6233,Shreelekha Revnkar,Shreelekha,Revnkar,PhD Student,Kavita Bala Lab,,,,,
 6157,Shreyas Kharbanda,Shreyas,Kharbanda,PhD Student,Rachit Agarwal Lab,,,,,
 7538,Shriya Nagpal,Shriya,Nagpal,PhD Student,Francesca Parise Lab,shriyn@pitzer.edu,search_metadata,low,,
+25484,Shubham Mohole,Shubham,Mohole,PhD Student,Sainyam Galhotra Lab,,,,,
 6829,Shufeng Kong,Shufeng,Kong,Postdoc,Carla Gomes Lab,,,,,
 6638,Si Yi (Cathy) Meng,Si,Yi (Cathy) Meng,PhD Student,Christopher De Sa Lab,siyimeng@cs.cornell.edu,search_metadata,high,,
 252,Sid Banerjee,Sid,Banerjee,Professor,Sid Banerjee Lab,sbanerjee@cornell.edu,,,https://www.duffield.cornell.edu/people/sid-banerjee/,https://www.duffield.cornell.edu/wp-content/uploads/2024/05/sid-banerjee.jpg
@@ -591,6 +605,7 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 6151,Sourbh Bhadane,Sourbh,Bhadane,PhD Student,Jayadev Acharya Lab,,,,,
 6170,Sowmya Dharanipragada,Sowmya,Dharanipragada,PhD Student,Lorenzo Alvisi Lab,sjd266@cornell.edu,discover_extract,medium,,
 7007,Stacey Li,Stacey,Li,PhD Student,Wendy Ju Lab,,,,,
+25486,Stanley Jiang,Stanley,Jiang,PhD Student,Sainyam Galhotra Lab,,,,,
 6417,Stella Dang,Stella,Dang,PhD Student,David Bindel Lab,,,,,
 7565,Stephanie Valencia,Stephanie,Valencia,PhD Student,Thijs Roumen Lab,,,,,
 6209,Stephanie Zhou,Stephanie,Zhou,PhD Student,Yoav Artzi Lab,,,,,
@@ -615,6 +630,7 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 7734,Tauhid Tanjim,Tauhid,Tanjim,PhD Student,Angelique Taylor Lab,,,,,
 6414,Tejal Nair,Tejal,Nair,PhD Student,David Bindel Lab,tn292@cornell.edu,,,,
 6496,Thalia Viranda,Thalia,Viranda,PhD Student,Tanzeem Choudhury Lab,,,,,
+25504,Thalia Zhang,Thalia,Zhang,PhD Student,Angelina Wang Lab,,,,,
 6809,Tharun Sankar,Tharun,Sankar,PhD Student,Carla Gomes Lab,,,,,
 7763,Tharushi Jayasekara,Tharushi,Jayasekara,PhD Student,Immanuel Trummer Lab,tharushi@cs.cornell.edu,search_metadata,high,,
 6835,Theo Damoulas,Theo,Damoulas,Postdoc,Carla Gomes Lab,damoulas@cs.cornell.edu,search_metadata,high,,
@@ -634,6 +650,7 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 295,Udit Gupta,Udit,Gupta,Professor,Udit Gupta Lab,ugupta@cornell.edu,,,https://tech.cornell.edu/people/udit-gupta/,https://tech.cornell.edu/wp-content/uploads/2022/08/Gupta-Udit-1440x1440.jpg
 6234,Utkarsh Mall,Utkarsh,Mall,PhD Student,Kavita Bala Lab,utkarsh.mall@mbzuai.ac.ae,search_metadata,low,,
 6773,Utku Acikalin,Utku,Acikalin,PhD Student,Carla Gomes Lab,,,,,
+25482,Ved Sriraman,Ved,Sriraman,PhD Student,Sainyam Galhotra Lab,,,,,
 6766,Venkatkrishna Karumanchi,Venkatkrishna,Karumanchi,PhD Student,Ziv Goldfeld Lab,,,,,
 7648,Vera Khovanskaya,Vera,Khovanskaya,PhD Student,Phoebe Sengers Lab,,,,,
 8027,Vesal Bakhtazad,Vesal,Bakhtazad,PhD Student,Zhiru Zhang Lab,vb354@cornell,discover_extract,low,,
@@ -646,6 +663,8 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 337,Vitaly Shmatikov,Vitaly,Shmatikov,Professor,Vitaly Shmatikov Lab,shmat@cs.cornell.edu,,,https://www.cs.cornell.edu/people/vitaly-shmatikov,https://www.cs.cornell.edu/sites/default/files/styles/profile_hero/public/2025-08/shmatikov-vitaly.jpg?h=f6c4a0e4&amp;itok=konLgtVD
 6552,Vivian Nguyen,Vivian,Nguyen,PhD Student,Cristian Danescu-Niculescu-Mizil Lab,,,,,
 312,Volodymyr Kuleshov,Volodymyr,Kuleshov,Professor,Volodymyr Kuleshov Lab,vk379@cornell.edu,,,https://www.cs.cornell.edu/people/volodymyr-kuleshov,https://www.cs.cornell.edu/sites/default/files/styles/profile_hero/public/2025-08/volodymyr-kuleshov-headshot.jpg?h=e09954a2&amp;itok=f3F-O7jO
+25503,Vyoma Raman,Vyoma,Raman,PhD Student,Angelina Wang Lab,,,,,
+25493,Waki Kamino,Waki,Kamino,PhD Student,Malte F. Jung Lab,,,,,
 360,Walker White,Walker,White,Faculty,Walker White Lab,wmwhite@cs.cornell.edu,,,https://www.cs.cornell.edu/people/walker-white,https://www.cs.cornell.edu/sites/default/files/styles/profile_hero/public/2025-07/walker-white.png?h=9c3ff57d&amp;itok=oRqNX2Wn
 6691,Wasu (Top) Piriyakulkij,Wasu,(Top) Piriyakulkij,PhD Student,Kevin Ellis Lab,,,,,
 6445,Wayne Kao,Wayne,Kao,PhD Student,David Bindel Lab,,,,,
@@ -656,6 +675,7 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 6744,Wenxin Chen,Wenxin,Chen,PhD Student,Kyra Gan Lab,,,,,
 6214,Wenxuan Peng,Wenxuan,Peng,PhD Student,Hadar Averbuch-Elor Lab,,,,,
 6254,Wenyan Bi,Wenyan,Bi,PhD Student,Kavita Bala Lab,,,,,
+25481,Wenzhi Li,Wenzhi,Li,PhD Student,Sainyam Galhotra Lab,,,,,
 6474,Will Huey,Will,Huey,PhD Student,Sanjiban Choudhury Lab,willhu003@gmail.com,search_metadata,low,,
 6837,Willem van Hoeve,Willem,van Hoeve,Postdoc,Carla Gomes Lab,vanhoeve@andrew.cmu.edu,search_metadata,low,,
 6194,William Y. Arms,William,Y. Arms,Faculty,William Arms Lab,William.Arms@cornell.edu,,,,
@@ -663,6 +683,7 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 6243,Xi Deng,Xi,Deng,PhD Student,Kavita Bala Lab,,,,,
 6834,Xiaojian Wu,Xiaojian,Wu,Postdoc,Carla Gomes Lab,xiaojian@cornell.edu,search_metadata,high,,
 6623,Xinrui Liu,Xinrui,Liu,PhD Student,Abe Davis Lab,xinrui@cs.cornell.edu,search_metadata,high,,
+25488,Xiyu (Jenny) Fu,Xiyu,(Jenny) Fu,PhD Student,Malte F. Jung Lab,,,,,
 7518,Xuanchen Lu,Xuanchen,Lu,PhD Student,Andrew Owens Lab,,,,,
 6848,Xuesi Chen,Xuesi,Chen,PhD Student,Udit Gupta Lab,,,,,
 7392,Xuyi Meng,Xuyi,Meng,PhD Student,Wei-Chiu Ma Lab,,,,,

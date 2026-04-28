@@ -31,6 +31,7 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 24867,Babu Pillai,Babu,Pillai,Teaching Professor,Babu Pillai Lab,pspillai@andrew.cmu.edu,,,https://csd.cs.cmu.edu/people/faculty/babu-pillai,https://csd.cs.cmu.edu/sites/default/files/2023-10/PILLAI-Babu-2023.jpg
 24793,Beidi Chen,Beidi,Chen,Affiliated Professor,Beidi Chen Lab,beidic@andrew.cmu.edu,,,https://csd.cs.cmu.edu/people/faculty/beidi-chen,https://csd.cs.cmu.edu/sites/default/files/2025-10/CHEN-beidi.jpg
 25122,Beijia Lu,Beijia,Lu,PhD Student,Jun-Yan Zhu Lab,,,,,
+25151,Bhavya Kumar Agrawalla,Bhavya,Kumar Agrawalla,PhD Student,Aviral Kumar Lab,,,,,
 5991,Bishan Yang,Bishan,Yang,Postdoc,Tom Mitchell Lab,bishan@cs.cmu.edu,search_metadata,high,,
 5705,Bohan Hou,Bohan,Hou,PhD Student,Tianqi Chen Lab,bohanhou@andrew.cmu.edu,directory,high,,
 24851,Brandon Lucia,Brandon,Lucia,Affiliated Professor,Brandon Lucia Lab,blucia@andrew.cmu.edu,,,https://csd.cs.cmu.edu/people/faculty/brandon-lucia,https://csd.cs.cmu.edu/sites/default/files/Lucia-2016_1.png
@@ -48,6 +49,7 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 221,Chris Donahue,Chris,Donahue,Professor,Chris Donahue Lab,chrisdonahue@cmu.edu,,,https://www.csd.cs.cmu.edu/people/faculty/chris-donahue,https://www.csd.cs.cmu.edu/sites/default/files/2023-09/Donahue.png
 5712,Christiaan van Merwijk,Christiaan,van Merwijk,PhD Student,Vincent Conitzer Lab,christiaanm@andrew.cmu.edu,pattern_inferred,pattern_guess,,
 25054,Christina Baek,Christina,Baek,PhD Student,Zico Kolter Lab,,,,,
+25150,Christina Contreras,Christina,Contreras,Staff,Aviral Kumar Lab,,,,,
 24787,Christopher Bogart,Christopher,Bogart,Professor,Christopher Bogart Lab,cbogart@cmu.edu,,,https://csd.cs.cmu.edu/people/faculty/christopher-bogart,https://csd.cs.cmu.edu/sites/default/files/2023-10/BOGART-Christopher-2023.jpg
 222,Christos Faloutsos,Christos,Faloutsos,Professor,Christos Faloutsos Lab,christos@andrew.cmu.edu,,,https://www.csd.cs.cmu.edu/people/faculty/christos-faloutsos,https://www.csd.cs.cmu.edu/sites/default/files/2025-08/Faloutsos-Christos.jpg
 24834,Christos Kapoutsis,Christos,Kapoutsis,Teaching Professor,Christos Kapoutsis Lab,cak@cmu.edu,,,https://csd.cs.cmu.edu/people/faculty/christos-kapoutsis,https://csd.cs.cmu.edu/sites/default/files/2023-11/christos2-350x350.jpg
@@ -86,6 +88,7 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 24903,Franceska Xhakaj,Franceska,Xhakaj,Teaching Professor,Franceska Xhakaj Lab,francesx@cs.cmu.edu,,,https://csd.cs.cmu.edu/people/faculty/franceska-xhakaj,https://csd.cs.cmu.edu/sites/default/files/2025-10/XHAKAJ-Franceska-2023.jpg
 24866,Frank Pfenning,Frank,Pfenning,Professor,Frank Pfenning Lab,fp@cmu.edu,,,https://csd.cs.cmu.edu/people/faculty/frank-pfenning,https://csd.cs.cmu.edu/sites/default/files/2023-09/Pfenning.jpg
 5770,Gabriele Oliaro,Gabriele,Oliaro,PhD Student,Zhihao Jia Lab,goliaro@cs.cmu.edu,directory,high,,
+25142,Galen Wachtman,Galen,Wachtman,PhD Student,Takeo Kanade Lab,gswst6@pitt.edu,,,,
 24814,Garth Gibson,Garth,Gibson,Professor,Garth Gibson Lab,garth@cmu.edu,,,https://csd.cs.cmu.edu/people/faculty/garth-gibson,https://csd.cs.cmu.edu/sites/default/files/2023-09/Gibson.jpeg
 6042,Gaurav Arya,Gaurav,Arya,PhD Student,Feras Saad Lab,gauravar@andrew.cmu.edu,search_metadata,high,,
 6036,Gaurav Ghosal,Gaurav,Ghosal,PhD Student,Aditi Raghunathan Lab,gghosal@cmu.edu,directory,high,,
@@ -148,7 +151,9 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 5703,Kiriaki Fragkia,Kiriaki,Fragkia,PhD Student,Maria Balcan Lab,kiriakif@andrew.cmu.edu,pattern_inferred,pattern_guess,,
 24894,Klaus Sutner,Klaus,Sutner,Teaching Professor,Klaus Sutner Lab,sutner@cmu.edu,,,https://csd.cs.cmu.edu/people/faculty/klaus-sutner,https://csd.cs.cmu.edu/sites/default/files/2023-09/sutner.jpg
 25118,Lara Pinto Sá Neves,Lara,Pinto Sá Neves,PhD Student,Eric Xing Lab,,,,,
+25143,Lawrence Ian Reed,Lawrence,Ian Reed,PhD Student,Takeo Kanade Lab,lirst6+@pitt.edu,,,,
 24776,Leman Akoglu,Leman,Akoglu,Affiliated Professor,Leman Akoglu Lab,lemanakoglu@cmu.edu,,,https://csd.cs.cmu.edu/people/faculty/leman-akoglu,https://csd.cs.cmu.edu/sites/default/files/2025-10/LemanAkoglu.jpg
+25141,Leon Gu,Leon,Gu,PhD Student,Takeo Kanade Lab,gu+@cs.cmu.edu,,,,
 6116,Leon Yang,Leon,Yang,PhD Student,Dimitrios Skarlatos Lab,leony@andrew.cmu.edu,pattern_inferred,pattern_guess,,
 24830,Limin Jia,Limin,Jia,Affiliated Professor,Limin Jia Lab,liminjia@cmu.edu,,,https://csd.cs.cmu.edu/people/faculty/limin-jia,https://csd.cs.cmu.edu/sites/default/files/2023-09/Jia.jpg
 25116,Lingjing Kong,Lingjing,Kong,PhD Student,Eric Xing Lab,,,,,
@@ -169,6 +174,7 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 24808,Matt Fredrikson,Matt,Fredrikson,Professor,Matt Fredrikson Lab,mfredrik@cmu.edu,,,https://csd.cs.cmu.edu/people/faculty/matt-fredrikson,https://csd.cs.cmu.edu/sites/default/files/2023-09/Fredrikson.png
 230,Matthew O'Toole,Matthew,O'Toole,Professor,Matthew O'Toole Lab,motoole2@andrew.cmu.edu,,,https://www.csd.cs.cmu.edu/people/faculty/matthew-otoole,https://www.csd.cs.cmu.edu/sites/default/files/2024-03/motoole_profile2%20-%20Matthew%20O%27Toole_0.jpg
 5910,Matthew Smith,Matthew,Smith,Postdoc,Tai-Sing Lee Lab,msmith@andrew.cmu.edu,search_metadata,high,,
+25152,Max Sobol Mark,Max,Sobol Mark,PhD Student,Aviral Kumar Lab,,,,,
 25120,Maxwell Jones,Maxwell,Jones,PhD Student,Jun-Yan Zhu Lab,,,,,
 5771,Mengdi Wu,Mengdi,Wu,PhD Student,Zhihao Jia Lab,mengdiwu@andrew.cmu.edu,directory,high,,
 24818,Meredith Grelli,Meredith,Grelli,Teaching Professor,Meredith Grelli Lab,mmgrelli@cmu.edu,,,https://csd.cs.cmu.edu/people/faculty/meredith-grelli,https://csd.cs.cmu.edu/sites/default/files/2025-07/grelli-meredith.jpg
@@ -190,6 +196,7 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 5992,Ndapa Nakashole,Ndapa,Nakashole,Postdoc,Tom Mitchell Lab,nnakashole@ucsd.edu,search_metadata,low,,
 236,Nihar Shah,Nihar,Shah,Faculty,Nihar Shah Lab,nihars@cs.cmu.edu,,,https://www.csd.cs.cmu.edu/people/faculty/nihar-shah,https://www.csd.cs.cmu.edu/sites/default/files/2023-09/nihars.png
 24885,Nihar Shah,Nihar,Shah,Professor,Nihar Shah Lab,nihars@cs.cmu.edu,,,https://csd.cs.cmu.edu/people/faculty/nihar-shah,https://csd.cs.cmu.edu/sites/default/files/2023-09/nihars.png
+25149,Nina Balcan,Nina,Balcan,Faculty,Maria Balcan Lab,ninamf@cs.cmu.edu,,,,
 25121,Nupur Kumari,Nupur,Kumari,PhD Student,Jun-Yan Zhu Lab,,,,,
 5876,Om Kathira,Om,Kathira,PhD Student,Tai-Sing Lee Lab,omk@andrew.cmu.edu,pattern_inferred,pattern_guess,,
 6078,Pallavi Koppol,Pallavi,Koppol,PhD Student,Reid Simmons Lab,pallavik@andrew.cmu.edu,pattern_inferred,pattern_guess,,
@@ -301,6 +308,7 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 5945,Yue Wu,Yue,Wu,PhD Student,Tom Mitchell Lab,yuew3@andrew.cmu.edu,search_metadata,medium,,
 5868,Yuxuan Zhu,Yuxuan,Zhu,PhD Student,Tai-Sing Lee Lab,yuxuanz@andrew.cmu.edu,pattern_inferred,pattern_guess,,
 5756,Yuyao Shi,Yuyao,Shi,PhD Student,Jessica Hodgins Lab,yuyaos@andrew.cmu.edu,pattern_inferred,pattern_guess,,
+25139,Zara Ambadar,Zara,Ambadar,Postdoc,Takeo Kanade Lab,ambadar@pitt.edu,,,,
 24835,Zeliha Dilsun Kaynar,Zeliha,Dilsun Kaynar,Teaching Professor,Zeliha Dilsun Kaynar Lab,dilsun@cs.cmu.edu,,,https://csd.cs.cmu.edu/people/faculty/zeliha-dilsun-kaynar,https://csd.cs.cmu.edu/sites/default/files/2023-09/DilsunonWeb.jpg
 5944,Zhaofeng Luo,Zhaofeng,Luo,PhD Student,Minchen Li Lab,zhaofen2@andrew.cmu.edu,search_metadata,medium,,
 25034,Zhaozi Wang,Zhaozi,Wang,PhD Student,Anupam Gupta Lab,,,,,

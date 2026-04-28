@@ -23,6 +23,7 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 13733,Armanda Lewis,Armanda,Lewis,PhD Student,Julia Stoyanovich Lab,armanda.lewis@nyu.edu,search_metadata,high,,
 13649,Arush Ramteke,Arush,Ramteke,PhD Student,Oded Regev Lab,arush.ramteke@nyu.edu,pattern_inferred,pattern_guess,,
 829,Aurojit Panda,Aurojit,Panda,Professor,Aurojit Panda Lab,,,,https://cs.nyu.edu/~apanda/,
+25838,Avadesh Meduri,Avadesh,Meduri,PhD Student,Ludovic Righetti Lab,,,,,
 13651,Avery Dunn,Avery,Dunn,PhD Student,Oded Regev Lab,avery.dunn@nyu.edu,pattern_inferred,pattern_guess,,
 830,Benjamin Peherstorfer,Benjamin,Peherstorfer,Professor,Benjamin Peherstorfer Lab,,,,https://cims.nyu.edu/~pehersto/,
 13819,Bo Pang,Bo,Pang,PhD Student,Zhong-Ping Jiang Lab,bo.pang@nyu.edu,search_metadata,high,,
@@ -65,6 +66,7 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 13698,Guan-de Wu,Guan-de,Wu,PhD Student,Claudio Silva Lab,guandewu@nyu.edu,search_metadata,medium,,
 13531,Gustavo R. Perez-Lemus,Gustavo,R. Perez-Lemus,PhD Student,Juan de Pablo Lab,gustavo.perez-lemus@nyu.edu,pattern_inferred,pattern_guess,,
 13619,Hexu Zhao,Hexu,Zhao,PhD Student,Aurojit Panda Lab,hexu.zhao@nyu.edu,pattern_inferred,pattern_guess,,
+25837,Huaijiang Zhu,Huaijiang,Zhu,PhD Student,Ludovic Righetti Lab,,,,,
 13560,Jacob Berv,Jacob,Berv,Postdoc,David Fouhey Lab,jberv@umich.edu,search_metadata,low,,
 13823,Jalil Hasanyan,Jalil,Hasanyan,PhD Student,Zhong-Ping Jiang Lab,jalil.hasanyan@nyu.edu,pattern_inferred,pattern_guess,,
 13629,Jeffery Wang,Jeffery,Wang,PhD Student,Aurojit Panda Lab,jeffery.wang@nyu.edu,pattern_inferred,pattern_guess,,
@@ -88,6 +90,7 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 13457,Julia Wilkins,Julia,Wilkins,PhD Student,Juan Pablo Bello Lab,jw3596@nyu.edu,discover_extract,medium,,
 837,Julian Togelius,Julian,Togelius,Professor,Julian Togelius Lab,,,,https://engineering.nyu.edu/faculty/julian-togelius,https://engineering.nyu.edu/sites/default/files/styles/square_large_default_1x/public/2019-05/julian-togelius.png?h=6a0cab5b&amp;itok=ke24mJUG
 812,Justin Cappos,Justin,Cappos,Professor,Justin Cappos Lab,,,,https://engineering.nyu.edu/faculty/justin-cappos,https://engineering.nyu.edu/sites/default/files/styles/square_large_default_1x/public/2020-12/46ECDB12-9C60-49F3-B9DE-AF72515EC860-1F71DE8D-A856-4247-A26E-4B2D600E51E3.JPG?h=e5aec6c8&amp;itok=uNXDCfrs
+25839,Kai Pfeiffer,Kai,Pfeiffer,Postdoc,Ludovic Righetti Lab,,,,,
 13604,Kelly O. Marshall,Kelly,O. Marshall,PhD Student,Chinmay Hegde Lab,marshall.ball@cs.nyu.edu,search_metadata,high,,
 13455,Kelvin Walls,Kelvin,Walls,PhD Student,Juan Pablo Bello Lab,klw8157@nyu.edu,discover_extract,medium,,
 13578,Kevin Gallagher,Kevin,Gallagher,PhD Student,Rachel Greenstadt Lab,kevin.gallagher@nyu.edu,search_metadata,high,,
@@ -98,6 +101,7 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 822,Lisa Hellerstein,Lisa,Hellerstein,Professor,Lisa Hellerstein Lab,,,,https://engineering.nyu.edu/faculty/lisa-hellerstein,https://engineering.nyu.edu/sites/default/files/styles/square_large_default_1x/public/2024-11/lisa_hellerstein.jpg?h=95febcb4&amp;itok=TyMT7si3
 845,Ludovic Righetti,Ludovic,Righetti,Professor,Ludovic Righetti Lab,,,,https://engineering.nyu.edu/faculty/ludovic-righetti,https://engineering.nyu.edu/sites/default/files/styles/square_large_default_1x/public/2018-04/ludovic-righetti-2018.jpg?h=7f150874&amp;itok=2Q2dbEi3
 13580,Madhusudhan Reddy Pittu,Madhusudhan,Reddy Pittu,Postdoc,Anupam Gupta Lab,madhusudhan.pittu@nyu.edu,pattern_inferred,pattern_guess,,
+25840,Manali Sharma,Manali,Sharma,PhD Student,Ludovic Righetti Lab,,,,,
 13501,Marco De Vincenzi,Marco,De Vincenzi,Postdoc,Justin Cappos Lab,Marco.Vincenzi@unh.edu,search_metadata,low,,
 13768,Margaret Conde Paredes,Margaret,Conde Paredes,PhD Student,Erdem Varol Lab,margaret.paredes@nyu.edu,pattern_inferred,pattern_guess,,
 13446,Marios Glytsos,Marios,Glytsos,PhD Student,Juan Pablo Bello Lab,mg8253@nyu.edu,discover_extract,medium,,

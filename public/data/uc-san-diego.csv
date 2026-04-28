@@ -36,9 +36,11 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 23136,Alex Bellon,Alex,Bellon,PhD Student,Pat Pannuto Lab,abellon@ucsd.edu,search_metadata,high,,
 1551,Alex C. Snoeren,Alex,C. Snoeren,Professor,Alex C. Snoeren Lab,snoeren@cs.ucsd.edu,,,https://cse.ucsd.edu/people/faculty-profiles/alex-c-snoeren,https://cse.ucsd.edu/sites/default/files/faculty/snoeren17-115x150.jpg
 22465,Alex Chao,Alex,Chao,PhD Student,William G. Griswold Lab,alexchao@ucsd.edu,search_metadata,high,,
+25248,Alex Chow,Alex,Chow,Staff,Laurel Riek Lab,,,,,
 1628,Alex Cloninger,Alex,Cloninger,Professor,Alex Cloninger Lab,acloninger@ucsd.edu,,,https://datascience.ucsd.edu/people/alex-cloninger/,https://datascience.ucsd.edu/wp-content/uploads/2022/09/alexcloninger_headshot.jpg
 23092,Alex Fong,Alex,Fong,PhD Student,Niema Moshiri Lab,afong@ucsd.edu,pattern_inferred,pattern_guess,,
 1504,Alex Gantman,Alex,Gantman,Professor,Alex Gantman Lab,agantman@ucsd.edu,,,https://cse.ucsd.edu/people/faculty-profiles/alex-gantman,https://cse.ucsd.edu/sites/default/files/faculty/gantman17-115x150_0.png
+25313,Alex Nguyen,Alex,Nguyen,PhD Student,Jingbo Shang Lab,,,,,
 1531,Alex Orailoglu,Alex,Orailoglu,Professor,Alex Orailoglu Lab,alex@cs.ucsd.edu,,,https://cse.ucsd.edu/people/faculty-profiles/alex-orailoglu,https://cse.ucsd.edu/sites/default/files/faculty/orailoglu17-115x150.png
 23928,Alex Rojas,Alex,Rojas,PhD Student,Yian Ma Lab,jrojasve@ucsd.edu,search_scrape,high,,
 23022,Alex Staninger,Alex,Staninger,PhD Student,Mia Minnes Lab,astaninger@ucsd.edu,pattern_inferred,pattern_guess,,
@@ -109,6 +111,7 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 22708,April Tang,April,Tang,PhD Student,Rob Knight Lab,atang@ucsd.edu,pattern_inferred,pattern_guess,,
 23380,Archit Agarwal,Archit,Agarwal,PhD Student,Dean M. Tullsen Lab,architagarwal256@gmail.com,search_metadata,low,,
 22658,Ariel Weingarten,Ariel,Weingarten,PhD Student,Scott Klemmer Lab,aweingarten@ucsd.edu,pattern_inferred,pattern_guess,,
+25250,Arielle Ho,Arielle,Ho,Undergraduate,Laurel Riek Lab,,,,,
 1660,Armin Schwartzman,Armin,Schwartzman,Professor,Armin Schwartzman Lab,a7schwartzman@ucsd.edu,,,https://datascience.ucsd.edu/people/armin-schwartzman/,https://datascience.ucsd.edu/wp-content/uploads/2022/09/arminschwartzman_headshot.jpg
 22817,Arshia Arya,Arshia,Arya,PhD Student,Deepak Kumar Lab,aarshia@ucsd.edu,search_metadata,high,,
 23014,Artem Mavrin,Artem,Mavrin,PhD Student,Mia Minnes Lab,amavrin@ucsd.edu,search_metadata,high,,
@@ -199,10 +202,12 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 23078,Colin Young,Colin,Young,PhD Student,Niema Moshiri Lab,cyoung@ucsd.edu,pattern_inferred,pattern_guess,,
 23883,Colleen Wang,Colleen,Wang,PhD Student,Sylvia Herbert Lab,sdriscoll@sdsu.edu,search_scrape,low,,
 24654,Conan Minihan,Conan,Minihan,PhD Student,Benjamin Smarr Lab,cminihan@ucsd.edu,pattern_inferred,pattern_guess,,
+25246,Connie Guan,Connie,Guan,Staff,Laurel Riek Lab,,,,,
 23845,Cora Coleman,Cora,Coleman,PhD Student,Philip J. Guo Lab,abcoleman@ucsd.edu,search_scrape,high,,
 23856,Coral Pereda Serras,Coral,Pereda Serras,PhD Student,Philip J. Guo Lab,cperedas@ucsd.edu,search_metadata,high,,
 22287,Cuncheng Zhu,Cuncheng,Zhu,PhD Student,Albert Chern Lab,czhu@ucsd.edu,pattern_inferred,pattern_guess,,
 24417,Dae Cheol Kwon,Dae,Cheol Kwon,PhD Student,Xinyu Zhang Lab,ejkwon@ucsd.edu,search_scrape,medium,,
+25239,Dagoberto Cruz-Sandoval,Dagoberto,Cruz-Sandoval,Postdoc,Laurel Riek Lab,,,,,
 23994,Daira Melendez,Daira,Melendez,PhD Student,Siavash Mirarab Lab,damelendez@ucsd.edu,search_metadata,high,,
 23222,Damon McCoy,Damon,McCoy,Postdoc,Stefan Savage Lab,mccoy@nyu.edu,search_metadata,low,,
 23920,Dan Halmos,Dan,Halmos,PhD Student,Trey Ideker Lab,dhalmos@ucsd.edu,discover_extract,high,,
@@ -234,6 +239,7 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 24378,David Su,David,Su,PhD Student,Hao Zhang Lab,midavid@ucsd.edu,search_scrape,high,,
 1556,Dean M. Tullsen,Dean,M. Tullsen,Professor,Dean M. Tullsen Lab,tullsen@cs.ucsd.edu,,,https://cse.ucsd.edu/people/faculty-profiles/dean-m-tullsen,https://cse.ucsd.edu/sites/default/files/faculty/tullsen17-115x150.jpg
 1546,Debashis Sahoo,Debashis,Sahoo,Professor,Debashis Sahoo Lab,dsahoo@ucsd.edu,,,https://cse.ucsd.edu/people/faculty-profiles/debashis-sahoo,https://cse.ucsd.edu/sites/default/files/faculty/sahoo17-115x150.jpg
+25242,Deep Saran Masanam,Deep,Saran Masanam,PhD Student,Laurel Riek Lab,,,,,
 1520,Deepak Kumar,Deepak,Kumar,Professor,Deepak Kumar Lab,kumarde@ucsd.edu,,,https://cse.ucsd.edu/people/faculty-profiles/deepak-kumar,https://cse.ucsd.edu/sites/default/files/faculty/deepak-kumar_0.png
 1552,Deian Stefan,Deian,Stefan,Faculty,Deian Stefan Lab,deian@cs.ucsd.edu,,,https://cse.ucsd.edu/people/faculty-profiles/deian-stefan,https://cse.ucsd.edu/sites/default/files/faculty/stefan217-115x150.jpg
 24315,Derek Chen,Derek,Chen,PhD Student,Michael Yip Lab,dchen@ucsd.edu,pattern_inferred,pattern_guess,,
@@ -426,6 +432,7 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 24447,Jiachen Qian,Jiachen,Qian,PhD Student,Yang Zheng Lab,jqian@ucsd.edu,pattern_inferred,pattern_guess,,
 23908,"Jiahao Gao, PhD",Jiahao,"Gao, PhD",Postdoc,Trey Ideker Lab,jig049@health.ucsd.edu,discover_extract,medium,,
 23950,Jialin Li,Jialin,Li,PhD Student,Marcelo Mattar Lab,,,,,
+25312,Jian Chen,Jian,Chen,PhD Student,Zhijian Liu Lab,,,,,
 23124,Jianfeng Wang,Jianfeng,Wang,PhD Student,Marc Niethammer Lab,jwang@ucsd.edu,pattern_inferred,pattern_guess,,
 24604,Jiang Wang,Jiang,Wang,PhD Student,Dimitris Politis Lab,,,,,
 23473,Jianke Yang,Jianke,Yang,PhD Student,Qi (Rose) Yu Lab,jyang@ucsd.edu,pattern_inferred,pattern_guess,,
@@ -502,6 +509,7 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 23867,Kate Zegans,Kate,Zegans,Staff,Philip J. Guo Lab,,,,,
 23034,Katelyn Nguyen,Katelyn,Nguyen,PhD Student,Niema Moshiri Lab,knguyen@ucsd.edu,pattern_inferred,pattern_guess,,
 23069,Katherine Izhikevich,Katherine,Izhikevich,PhD Student,Niema Moshiri Lab,katherine@ucsd.edu,search_metadata,high,,
+25310,Kathryne Metcalf,Kathryne,Metcalf,PhD Student,R Stuart Geiger Lab,,,,,
 23047,Katy Stadler,Katy,Stadler,PhD Student,Niema Moshiri Lab,kstadler@ucsd.edu,pattern_inferred,pattern_guess,,
 24059,Kaustubh Singh,Kaustubh,Singh,PhD Student,Tauhidur Rahman Lab,ksingh@ucsd.edu,pattern_inferred,pattern_guess,,
 23048,Kayla Phillips,Kayla,Phillips,PhD Student,Niema Moshiri Lab,k3phillips@ucsd.edu,search_metadata,high,,
@@ -643,6 +651,7 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 1594,Michael Norman,Michael,Norman,Professor,Michael Norman Lab,mlnorman@ucsd.edu,,,https://cse.ucsd.edu/people/faculty-profiles/michael-norman,https://cse.ucsd.edu/sites/default/files/faculty/norman17-115x150.jpg
 24317,Michael Owens,Michael,Owens,PhD Student,Michael Yip Lab,tpmichael@ucsd.edu,search_scrape,high,,
 1606,Michael Yip,Michael,Yip,Professor,Michael Yip Lab,m1yip@ucsd.edu,,,https://cse.ucsd.edu/people/faculty-profiles/michael-yip,https://cse.ucsd.edu/sites/default/files/faculty/y2.jpg
+25244,Michele Murakami,Michele,Murakami,PhD Student,Laurel Riek Lab,,,,,
 23200,Michelina Hanlon,Michelina,Hanlon,PhD Student,Stefan Savage Lab,mhanlon@ucsd.edu,search_metadata,high,,
 24526,Michelle Franc Ragsac,Michelle,Franc Ragsac,Postdoc,Tiffany Amariuta Lab,mragsac@ucsd.edu,pattern_verified_search,medium,,
 22662,Michelle Lee,Michelle,Lee,PhD Student,Scott Klemmer Lab,mlee@ucsd.edu,pattern_inferred,pattern_guess,,
@@ -763,6 +772,7 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 23851,Qiyu Li,Qiyu,Li,PhD Student,Philip J. Guo Lab,qiyuli@ucsd.edu,search_metadata,medium,,
 23901,Qiyue Gao,Qiyue,Gao,PhD Student,Zhiting Hu Lab,q3gao@ucsd.edu,search_metadata,medium,,
 1634,R Stuart Geiger,R,Stuart Geiger,Professor,R Stuart Geiger Lab,,,,https://datascience.ucsd.edu/people/r-stuart-geiger/,https://datascience.ucsd.edu/wp-content/uploads/2022/09/stuartgeiger_headshot.jpg
+25241,Rabeya Jamshad,Rabeya,Jamshad,PhD Student,Laurel Riek Lab,,,,,
 23088,Rachel Fernandez,Rachel,Fernandez,PhD Student,Niema Moshiri Lab,rfernandez@ucsd.edu,pattern_inferred,pattern_guess,,
 23073,Rachel Kunowski,Rachel,Kunowski,PhD Student,Niema Moshiri Lab,rkunowski@ucsd.edu,pattern_inferred,pattern_guess,,
 22974,Rachel Lim,Rachel,Lim,PhD Student,Mia Minnes Lab,rlim@ucsd.edu,pattern_inferred,pattern_guess,,
@@ -829,6 +839,7 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 24585,Samira Masoudi,Samira,Masoudi,Postdoc,Albert Hsiao Lab,smasoudi@ucsd.edu,pattern_inferred,pattern_guess,,
 1611,Samuel R. Buss,Samuel,R. Buss,Professor,Samuel R. Buss Lab,sbuss@ucsd.edu,,,https://cse.ucsd.edu/people/faculty-profiles/samuel-r-buss,https://cse.ucsd.edu/sites/default/files/faculty/buss17-115x150.jpg
 23874,Sander Tonkens,Sander,Tonkens,PhD Student,Sylvia Herbert Lab,ssandin@ucsd.edu,search_scrape,medium,,
+25240,Sandhya Jayaraman,Sandhya,Jayaraman,PhD Student,Laurel Riek Lab,,,,,
 23562,Sang Yoon Byun,Sang,Yoon Byun,PhD Student,Vikas Bansal Lab,sbyun@ucsd.edu,pattern_inferred,pattern_guess,,
 1498,Sanjoy Dasgupta,Sanjoy,Dasgupta,Professor,Sanjoy Dasgupta Lab,dasgupta@cs.ucsd.edu,,,https://cse.ucsd.edu/people/faculty-profiles/sanjoy-dasgupta,https://cse.ucsd.edu/sites/default/files/faculty/dasgupta17-115x150.jpg
 23194,Sara Safa McCoy,Sara,Safa McCoy,PhD Student,Debashis Sahoo Lab,sasafa@ucsd.edu,discover_extract,medium,,
@@ -850,6 +861,7 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 22296,Seth Farrell,Seth,Farrell,PhD Student,Henrik I. Christensen Lab,swfarrel@ucsd.edu,search_metadata,medium,,
 22590,Seungwon Kim,Seungwon,Kim,Postdoc,Andrew B. Kahng Lab,skim@ucsd.edu,pattern_inferred,pattern_guess,,
 1523,Shachar Lovett,Shachar,Lovett,Professor,Shachar Lovett Lab,slovett@cs.ucsd.edu,,,https://cse.ucsd.edu/people/faculty-profiles/shachar-lovett,https://cse.ucsd.edu/sites/default/files/faculty/lovett17-115x150.jpg
+25251,Shamita Goyal,Shamita,Goyal,Undergraduate,Laurel Riek Lab,,,,,
 1554,Shankar Subramaniam,Shankar,Subramaniam,Professor,Shankar Subramaniam Lab,shankar@ucsd.edu,,,https://cse.ucsd.edu/people/faculty-profiles/shankar-subramaniam,https://cse.ucsd.edu/sites/default/files/faculty/subramaniam17-115x150.jpg
 1665,Shankar Subramaniam,Shankar,Subramaniam,Professor,Shankar Subramaniam Lab,shsubramaniam@ucsd.edu,,,https://datascience.ucsd.edu/people/shankar-subramaniam/,https://datascience.ucsd.edu/wp-content/uploads/2022/09/shankar_subramaniam.jpg
 1632,Shannon Ellis,Shannon,Ellis,Faculty,Shannon Ellis Lab,sellis@ucsd.edu,,,https://datascience.ucsd.edu/people/shannon-ellis/,https://datascience.ucsd.edu/wp-content/uploads/2022/09/shannonellis_headshot.jpg
@@ -894,6 +906,7 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 22394,Soroush Ghodrati,Soroush,Ghodrati,PhD Student,Hadi Esmaeilzadeh Lab,sghodrati@ucsd.edu,search_scrape,high,,
 23114,Soumitri Chattopadhyay,Soumitri,Chattopadhyay,PhD Student,Marc Niethammer Lab,sochattopadhyay@ucsd.edu,search_metadata,high,,
 24009,Sowmya Manojna Narasimha,Sowmya,Manojna Narasimha,PhD Student,Gal Mishne Lab,ppannaraj@ucsd.edu,search_scrape,medium,,
+25247,Soyon Kim,Soyon,Kim,Staff,Laurel Riek Lab,,,,,
 23463,Spencer Ho,Spencer,Ho,PhD Student,Qi (Rose) Yu Lab,sho@ucsd.edu,pattern_inferred,pattern_guess,,
 23939,Sreejan Kumar,Sreejan,Kumar,Postdoc,Marcelo Mattar Lab,skumar@ucsd.edu,pattern_inferred,pattern_guess,,
 23606,Sreevatsank Kadaveru,Sreevatsank,Kadaveru,PhD Student,Dinesh Bharadia Lab,skadaveru@ucsd.edu,pattern_inferred,pattern_guess,,
@@ -901,6 +914,7 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 23696,Srinivas Ravishankar,Srinivas,Ravishankar,PhD Student,Virginia de Sa Lab,srravishankar@ucsd.edu,search_metadata,high,,
 24570,Srinjoy Das,Srinjoy,Das,Postdoc,Alex Cloninger Lab,srinjoy.das@mail.wvu.edu,search_metadata,low,,
 22659,Srishti Palani,Srishti,Palani,PhD Student,Scott Klemmer Lab,spalani@ucsd.edu,search_scrape,high,,
+25249,Sruti Mani,Sruti,Mani,Undergraduate,Laurel Riek Lab,,,,,
 1547,Stefan Savage,Stefan,Savage,Professor,Stefan Savage Lab,savage@cs.ucsd.edu,,,https://cse.ucsd.edu/people/faculty-profiles/stefan-savage,https://cse.ucsd.edu/sites/default/files/faculty/savage17-115x150.jpg
 23921,Stephanie Harchenko,Stephanie,Harchenko,PhD Student,Trey Ideker Lab,harchenko@health.ucsd.edu,discover_extract,high,,
 22286,Stephanie Wang,Stephanie,Wang,Postdoc,Albert Chern Lab,swang@ucsd.edu,pattern_inferred,pattern_guess,,
@@ -980,6 +994,7 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 22935,Tyler Lo,Tyler,Lo,PhD Student,Mia Minnes Lab,lomueller@ucsd.edu,search_scrape,high,,
 23137,Tyler Potyondy,Tyler,Potyondy,PhD Student,Pat Pannuto Lab,tpotyondy@ucsd.edu,search_metadata,high,,
 1521,Tzu-Mao Li,Tzu-Mao,Li,Professor,Tzu-Mao Li Lab,tzumao@mit.edu,,,https://cse.ucsd.edu/people/faculty-profiles/tzu-mao-li,https://cse.ucsd.edu/sites/default/files/faculty/li-115x150.png
+25245,U Lam Lou,U,Lam Lou,PhD Student,Laurel Riek Lab,,,,,
 24327,Uday Kalra,Uday,Kalra,PhD Student,Michael Yip Lab,ukalra@ucsd.edu,pattern_inferred,pattern_guess,,
 23416,Udayan Tandon,Udayan,Tandon,PhD Student,Kristen Vaccaro Lab,utandon@ucsd.edu,search_metadata,high,,
 24040,Upal Mahbub,Upal,Mahbub,PhD Student,Tauhidur Rahman Lab,upalmahbub@yahoo.com,search_metadata,low,,
@@ -995,6 +1010,7 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 22655,Vineet Pandey,Vineet,Pandey,PhD Student,Scott Klemmer Lab,jndeshpande@ucsd.edu,search_scrape,medium,,
 23108,Viren Abhyankar,Viren,Abhyankar,PhD Student,Niema Moshiri Lab,vabhyankar@ucsd.edu,pattern_inferred,pattern_guess,,
 1574,Virginia de Sa,Virginia,de Sa,Professor,Virginia de Sa Lab,desa@ucsd.edu,,,https://cse.ucsd.edu/people/faculty-profiles/virginia-de-sa,https://cse.ucsd.edu/sites/default/files/faculty/desa17-115x150.png
+25243,Vishwas Mruthyunjaya,Vishwas,Mruthyunjaya,PhD Student,Laurel Riek Lab,,,,,
 22956,Vylana Trang,Vylana,Trang,PhD Student,Mia Minnes Lab,vtrang@ucsd.edu,pattern_inferred,pattern_guess,,
 23495,Wang Rao,Wang,Rao,PhD Student,Qi (Rose) Yu Lab,wrao@ucsd.edu,pattern_inferred,pattern_guess,,
 24384,Wei Zhou,Wei,Zhou,PhD Student,Hao Zhang Lab,wzhou@ucsd.edu,pattern_inferred,pattern_guess,,
@@ -1035,6 +1051,7 @@ researcher_id,name,first_name,last_name,role,lab_name,current_email,current_emai
 24622,Xinran Wang,Xinran,Wang,PhD Student,Armin Schwartzman Lab,xwang@ucsd.edu,pattern_inferred,pattern_guess,,
 22381,Xinwei Qiang,Xinwei,Qiang,PhD Student,Yufei Ding Lab,xqiang@ucsd.edu,pattern_inferred,pattern_guess,,
 1609,Xinyu Zhang,Xinyu,Zhang,Professor,Xinyu Zhang Lab,xyzhang@ucsd.edu,,,https://cse.ucsd.edu/people/faculty-profiles/xinyu-zhang,https://cse.ucsd.edu/sites/default/files/faculty/xyzhang17-115x150.png
+25311,Xinyue Wang,Xinyue,Wang,PhD Student,Biwei Huang Lab,xiw159@ucsd.edu,,,,
 22823,Xuan Tang,Xuan,Tang,PhD Student,Tzu-Mao Li Lab,sgeierstanger@ucsd.edu,search_scrape,medium,,
 22516,Xuan Zhang,Xuan,Zhang,Postdoc,Melissa Gymrek Lab,xzhang@ucsd.edu,pattern_inferred,pattern_guess,,
 22822,Xuanda Yang,Xuanda,Yang,PhD Student,Tzu-Mao Li Lab,xuandayang@gmail.com,search_metadata,low,,
